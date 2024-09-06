@@ -5911,7 +5911,6 @@ span.fill {
   background: #fff;
   box-shadow: 0px 5px 30px 0px rgb(137 139 143 / 10%);
 }
-
 .single-feature-box:before {
   position: absolute;
   content: "";
@@ -5919,11 +5918,25 @@ span.fill {
   bottom: 0;
   width: 80px;
   height: 80px;
-  background: url(../images/resource/box-bg2.png);
-  transition: 0.5s;
-  opacity: 0;
+  background: url(../images/resource/box-bg2.jpg);
+  background-size: 100%; /* Initial size of the image */
+  background-repeat: no-repeat;
+  opacity: 0; /* Initial opacity */
+  transition: opacity 0.2s ease, background-size 0.2s ease; /* Smooth transition for opacity and size */
   z-index: -1;
 }
+
+.single-feature-box:hover:before {
+  opacity: 0.5; /* Increase opacity on hover */
+  background-size: 50%; /* Reduce background image size on hover */
+}
+
+.outlined-text {
+  color: transparent; /* Makes the text transparent */
+  -webkit-text-stroke: 1px black; /* Adds an outline with 1px thickness in black */
+  font-weight: bold; /* Optional: Makes the font bold for better visibility */
+}
+
 
 .feature-box-inner {
   transition: 0.4s;

@@ -50,7 +50,7 @@ export const DaskTopMenusMenus = () => {
         <ul className="sub-menu">
           {" "}
           <li>
-            <Link legacyBehavior href="about">
+            <Link legacyBehavior href="portfolio">
              The Masterminds International Institution 
             </Link>
           </li>{" "}
@@ -124,7 +124,7 @@ export const DaskTopMenusMenus = () => {
             <i className="fas fa-angle-down" />
           </span>
         </a>
-        <ul className="sub-menu">
+        {/* <ul className="sub-menu">
           {" "}
           <li>
             <Link legacyBehavior href="blog-grid">
@@ -151,7 +151,7 @@ export const DaskTopMenusMenus = () => {
               Professional's Achievements 
             </Link>
           </li>
-        </ul>
+        </ul> */}
       </li>{" "}
       <li>
         <Link legacyBehavior href="contact">

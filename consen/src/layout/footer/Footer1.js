@@ -53,25 +53,23 @@ const Footer1 = () => {
                 <div className="company-info-desc pr-2">
                   <h4 className="widget-title"> About Us </h4>
                   <p>
-                    Busines Consulting is optimize standing manufactured
-                    products and installation synergy. Professionally predominat
-                    why professional business
+                  The Masterminds International Operations & Accreditation
                   </p>
                 </div>
                 <div className="follow-company-icon">
-                  <a className="social-icon-color" href="#">
-                    {" "}
+                  <a className="social-icon-color" href="https://www.facebook.com/people/The-Masterminds-International-Institutions/100075920930200/">
+                    
                     <i className="bi bi-facebook" />{" "}
                   </a>
-                  <a className="social-icon-color2" href="#">
+                  <a className="social-icon-color2" href="https://www.instagram.com/_themasterminds_/?utm_medium=copy_link">
                     {" "}
                     <i className="bi bi-instagram"> </i>{" "}
                   </a>
-                  <a className="social-icon-color1" href="#">
-                    {" "}
+                  <a className="social-icon-color1" href="https://x.com/i/flow/login?redirect_after_login=%2FTheMastminds">
+                  
                     <i className="bi bi-twitter" />{" "}
                   </a>
-                  <a className="social-icon-color3" href="#">
+                  <a className="social-icon-color3" href="https://www.youtube.com/channel/UCKTWLPiv36wlFpblM9ycUnw">
                     {" "}
                     <i className="bi bi-youtube" />{" "}
                   </a>
@@ -102,31 +100,32 @@ const Footer1 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-6">
+            <div className="col-lg-4 col6">
               <div className="widget widget-nav-menu">
                 <h4 className="widget-title"> Services </h4>
                 <div className="menu-quick-link-content">
                   <ul className="footer-menu">
                     <li>
-                      <a href="#"> Strategy &amp; Planing </a>
+                      <a href="#"> Business Management and strategy </a>
                     </li>
                     <li>
-                      <a href="#"> Consumer Market </a>
+                      <a href="#"> Human resource management & system </a>
                     </li>
                     <li>
-                      <a href="#"> Data Analysis </a>
+                      <a href="#">ISO international quality certification</a>
                     </li>
                     <li>
-                      <a href="#"> Corporate Finance </a>
+                      <a href="#"> Professional courses
+                      </a>
                     </li>
                     <li>
-                      <a href="#"> Market Research </a>
+                      <a href="#"> Professional Licensing programs</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div id="em-recent-post-widget" className="mt-5 mt-sm-0">
                 <div className="single-widget-item">
                   <h4 className="widget-title">Popular Posts</h4>
@@ -167,8 +166,8 @@ const Footer1 = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </div>
           <div className="foorer-shape">
             <div className="footer-thumb">
@@ -196,8 +195,9 @@ const Footer1 = () => {
               <div className="footer-bottom-content">
                 <div className="footer-bottom-content-copy">
                   <p>
-                    © 2023 <span>Consen</span> all rights reserved. Design By
-                    Dream-IT.
+                 
+The <span>Masterminds International</span> Operations & Accreditation
+                  Dream-IT.
                   </p>
                 </div>
               </div>

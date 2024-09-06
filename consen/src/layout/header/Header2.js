@@ -11,7 +11,7 @@ const Header2 = () => {
             <div className="col-lg-8 col-sm-8">
               <div className="header_top_menu_address">
                 <div className="header_top_menu_text">
-                  <p>Welcome! to Consen Finance Consultant.</p>
+                  <p>Welcome! To MastermindsGroups</p>
                 </div>
               </div>
             </div>

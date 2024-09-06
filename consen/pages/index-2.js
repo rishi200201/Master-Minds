@@ -73,7 +73,7 @@ const Index2 = () => {
           <div className="row feature-bg">
             <div className="col-lg-3 col-md-2">
               <div className="single-feature-box">
-                <div className="feature-box-inner">
+                <div className="">
                   <div className="feature-icon1">
                     <img src="assets/images/resource/main1.png" alt />
                   </div>
@@ -103,7 +103,7 @@ const Index2 = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="single-feature-box uppp-1">
-                <div className="feature-box-inner">
+                <div className="">
                   <div className="feature-icon1">
                     <img src="assets/images/resource/main3.png" alt />
                   </div>
@@ -132,7 +132,7 @@ const Index2 = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="single-feature-box uppp-1">
-                <div className="feature-box-inner">
+                <div className="">
                   <div className="feature-icon1">
                     <img src="assets/images/resource/main2.png" alt />
                   </div>
@@ -160,7 +160,7 @@ const Index2 = () => {
               </div>
             </div><div className="col-lg-3 col-md-6">
               <div className="single-feature-box uppp-1">
-                <div className="feature-box-inner">
+                <div className="">
                   <div className="feature-icon1">
                     <img src="assets/images/resource/main2.png" alt />
                   </div>

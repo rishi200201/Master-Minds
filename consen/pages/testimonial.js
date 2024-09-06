@@ -13,7 +13,7 @@ const Testimonial = () => {
             <div className="col-lg-12">
               <div className="consen-section-title pb-50 text-center upper">
                 <h5> Testimonials </h5>
-                <h2> Consen Trusted Customers </h2>
+                <h2>What People Say </h2>
                 <h2>
                   {" "}
                   Awesome <span> Reviews </span>
@@ -205,7 +205,7 @@ const Testimonial = () => {
       {/*==================================================*/}
       {/* Start consen Subscribe Area */}
       {/*==================================================*/}
-      <div className="subscribe-area style-two mt-5 mt-sm-0">
+      {/* <div className="subscribe-area style-two mt-5 mt-sm-0">
         <div className="container">
           <div className="subscribe">
             <div className="row align-items-center">
@@ -226,7 +226,7 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 };

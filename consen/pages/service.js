@@ -11,7 +11,7 @@ const Service = () => {
       {/*==================================================*/}
       {/* Start consen service Area */}
       {/*==================================================*/}
-      <div className="service-area">
+      {/* <div className="service-area">
         <div className="container">
           <div className="row align-items-center mb-90">
             <div className="col-lg-7 col-md-8 pl-0">
@@ -157,6 +157,154 @@ const Service = () => {
             </div>
           </div>
         </div>
+      </div> */}
+      <div className="service-area">
+        <div className="container">
+          <div className="row align-items-center mb-90">
+            <div className="col-lg-7 col-md-8 pl-0">
+              <div className="consen-section-title mobile-center">
+                <h2> Browse Top</h2>
+                <h2>
+                  {" "}
+                  Business <span> Solutions </span>
+                </h2>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-4">
+              <div className="consen-button text-right">
+                <Link legacyBehavior href="/service">
+                  <a>
+                    {" "}
+                    View All <i className="bi bi-plus" />{" "}
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-sm-6 p-0">
+              <div className="dreamit-service-box">
+                <div className="service-box-inner">
+                  <div className="em-service-icon">
+                    <img src="assets/images/resource/service-icon.png" alt />
+                  </div>
+                  <div className="em-service-title">
+                    <h2> Global Business Management & Strategy </h2>
+                  </div>
+                  <div className="service-number">
+                    {/* <h1> 01 </h1> */}
+                  </div>
+                  <div className="em-service-text">
+                    <p>
+                      {" "}
+                      {/* Dramatically cultivate from quality user centric growth
+                      strateges emerging{" "} */}
+                    </p>
+                  </div>
+                  <div className="service-button">
+                    <Link legacyBehavior href="/service-details">
+                      <a>
+                        {" "}
+                        Read More <i className="bi bi-plus" />{" "}
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 p-0">
+              <div className="dreamit-service-box">
+                <div className="service-box-inner">
+                  <div className="em-service-icon">
+                    <img src="assets/images/resource/service-icon2.png" alt />
+                  </div>
+                  <div className="em-service-title">
+                    <h2> Human Resource Management and Systems  </h2>
+                  </div>
+                  <div className="service-number">
+                    {/* <h1> 02 </h1> */}
+                  </div>
+                  <div className="em-service-text">
+                    <p>
+                      {" "}
+                      {/* Dramatically cultivate from quality user centric growth
+                      strateges emerging{" "} */}
+                    </p>
+                  </div>
+                  <div className="service-button">
+                    <Link legacyBehavior href="/service-details">
+                      <a>
+                        {" "}
+                        Read More <i className="bi bi-plus" />{" "}
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 p-0">
+              <div className="dreamit-service-box">
+                <div className="service-box-inner">
+                  <div className="em-service-icon">
+                    <img src="assets/images/resource/service-icon3.png" alt />
+                  </div>
+                  <div className="em-service-title">
+                    <h2> Global Business Network Program </h2>
+                  </div>
+                  <div className="service-number">
+                    {/* <h1> 03 </h1> */}
+                  </div>
+                  <div className="em-service-text">
+                    <p>
+                      {" "}
+                      {/* Dramatically cultivate from quality user centric growth
+                      strateges emerging{" "} */}
+                    </p>
+                  </div>
+                  <div className="service-button">
+                    <Link legacyBehavior href="/service-details">
+                      <a>
+                        {" "}
+                        Read More <i className="bi bi-plus" />{" "}
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="col-lg-4 col-sm-6 p-0">
+              <div className="dreamit-service-box">
+                <div className="service-box-inner">
+                  <div className="em-service-icon">
+                    <img src="assets/images/resource/service-icon.png" alt />
+                  </div>
+                  <div className="em-service-title">
+                    <h2>ISO Certifications</h2>
+                  </div>
+                  <div className="service-number">
+                    {/* <h1> 05 </h1> */}
+                  </div>
+                  <div className="em-service-text">
+                    <p>
+                      {" "}
+                      {/* Dramatically cultivate from quality user centric growth
+                      strateges emerging{" "} */}
+                    </p>
+                  </div>
+                  <div className="service-button">
+                    <Link legacyBehavior href="/service-details">
+                      <a>
+                        {" "}
+                        Read More <i className="bi bi-plus" />{" "}
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       {/*==================================================*/}
       {/* End consen service Area */}
@@ -255,7 +403,7 @@ const Service = () => {
                     className="video-vemo-icon venobox vbox-item"
                     data-vbtype="youtube"
                     data-autoplay="true"
-                    href="https://youtu.be/BS4TUd7FJSg"
+                    href="https://www.youtube.com/embed/YeWkYSFlRT4?si=3B5QZvymUEkE5239"
                   >
                     <i className="bi bi-pause-circle-fill" />
                   </a>

@@ -39,26 +39,26 @@ const MobileMenu = () => {
               style={{ display: toggle ? "block" : "none" }}
             >
               <li>
-                <a href="#">Home </a>
+                <a href="#">Business Solutions </a>
                 <ul className="sub-menu" style={activeLi("Home")}>
                   <li>
                     <Link legacyBehavior href="/">
-                      IT Consulting
+                    Global Business Management and Strategy
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href="index-2">
-                      Finance Consulting
+                    Human Resource Management and Systems
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href="/index-3">
-                      <a>IT Solution</a>
+                      <a>ISO International Quality Management Certifications</a>
                     </Link>
                   </li>
                   <li>
                     <Link legacyBehavior href="/landing-1">
-                      <a>Landing Page</a>
+                      <a>Gobal Business Network Program</a>
                     </Link>
                   </li>
                 </ul>
@@ -72,9 +72,9 @@ const MobileMenu = () => {
                 </a>
               </li>
               <li>
-                <a href="#">Company </a>
+                <a href="#">Professional Courses </a>
                 <ul className="sub-menu" style={activeLi("Company")}>
-                  <li>
+                  {/* <li>
                     <Link legacyBehavior href="about">
                       About Us
                     </Link>
@@ -103,15 +103,15 @@ const MobileMenu = () => {
                     <Link legacyBehavior href="portfolio-details">
                       Portfolio Details
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link legacyBehavior href="404">
                       404
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
-                    <Link legacyBehavior href="contact">
-                      Contact Us
+                    <Link legacyBehavior href="portfolio">
+                    The Masterminds International Institutions
                     </Link>
                   </li>
                 </ul>
@@ -125,9 +125,9 @@ const MobileMenu = () => {
                 </a>
               </li>
               <li>
-                <a href="#">Services </a>
-                <ul className="sub-menu" style={activeLi("Services")}>
-                  <li>
+                <a href="#">Professional Licensing </a>
+                <ul className="sub-menu" style={activeLi("")}>
+                  {/* <li>
                     <Link legacyBehavior href="service">
                       Our Service
                     </Link>
@@ -136,7 +136,7 @@ const MobileMenu = () => {
                     <Link legacyBehavior href="service-details">
                       Service Details
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
                 <a
                   className="mean-expand"
@@ -148,11 +148,11 @@ const MobileMenu = () => {
                 </a>
               </li>
               <li>
-                <Link legacyBehavior href="portfolio">
-                  Portfolio
+                <Link legacyBehavior href="">
+                Resources
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="#">Blog </a>
                 <ul className="sub-menu" style={activeLi("Portfolio")}>
                   <li>
@@ -184,10 +184,10 @@ const MobileMenu = () => {
                 >
                   {activeBtn("Portfolio")}
                 </a>
-              </li>
+              </li> */}
               <li className="mean-last">
                 <Link legacyBehavior href="contact">
-                  Contact
+                  Contact Us
                 </Link>
               </li>
             </ul>

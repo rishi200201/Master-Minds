@@ -1,9 +1,51 @@
 import Link from "next/link";
 
-const DefaultFooter = () => {
+const Footer1 = () => {
   return (
-    <div className="footer-middle style-two">
+    <div className="footer-middle">
       <div className="container">
+        <div className="subscribe-area">
+          <div className="row ">
+            <div className="col-lg-6 col-md-6">
+              <div className="subscribe-title">
+                <h1>Subscribe to our Newsletter</h1>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6">
+              <form
+                onSubmit={(e) => e.preventDefault()}
+                action="https://formspree.io/f/myyleorq"
+                method="POST"
+                id="dreamit-form"
+              >
+                <div className="subscribe_form">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    className="form-control"
+                    required=""
+                    data-error="Please enter your email"
+                    placeholder="Enter Your Email"
+                  />
+                  <button type="submit" className="btn">
+                    Subscribe
+                  </button>
+                </div>
+                <div className="subscribe_form_send"></div>
+              </form>
+              <div id="status" />
+            </div>
+          </div>
+          <div className="subscribe-shape">
+            <div className="subscribe-thumb bounce-animate5">
+              <img src="assets/images/resource/small-dot.png" alt="" />
+            </div>
+            <div className="subscribe-thumb1">
+              <img src="assets/images/resource/big-dot.png" alt="" />
+            </div>
+          </div>
+        </div>
         <div className="footer-bg">
           <div className="row">
             <div className="col-lg-4 col-sm-6">
@@ -11,25 +53,23 @@ const DefaultFooter = () => {
                 <div className="company-info-desc pr-2">
                   <h4 className="widget-title"> About Us </h4>
                   <p>
-                    Busines Consulting is optimize standing manufactured
-                    products and installation synergy. Professionally predominat
-                    why professional business
+                  The Masterminds International Operations & Accreditation
                   </p>
                 </div>
                 <div className="follow-company-icon">
-                  <a className="social-icon-color" href="#">
-                    {" "}
+                  <a className="social-icon-color" href="https://www.facebook.com/people/The-Masterminds-International-Institutions/100075920930200/">
+                    
                     <i className="bi bi-facebook" />{" "}
                   </a>
-                  <a className="social-icon-color2" href="#">
+                  <a className="social-icon-color2" href="https://www.instagram.com/_themasterminds_/?utm_medium=copy_link">
                     {" "}
                     <i className="bi bi-instagram"> </i>{" "}
                   </a>
-                  <a className="social-icon-color1" href="#">
-                    {" "}
+                  <a className="social-icon-color1" href="https://x.com/i/flow/login?redirect_after_login=%2FTheMastminds">
+                  
                     <i className="bi bi-twitter" />{" "}
                   </a>
-                  <a className="social-icon-color3" href="#">
+                  <a className="social-icon-color3" href="https://www.youtube.com/channel/UCKTWLPiv36wlFpblM9ycUnw">
                     {" "}
                     <i className="bi bi-youtube" />{" "}
                   </a>
@@ -42,98 +82,92 @@ const DefaultFooter = () => {
                 <div className="menu-quick-link-content">
                   <ul className="footer-menu">
                     <li>
-                      <Link legacyBehavior href="/">
-                        Home
-                      </Link>
+                      <a href="#"> Home </a>
                     </li>
                     <li>
-                      <Link legacyBehavior href="about">
-                        About Us
-                      </Link>
+                      <a href="#"> About U s</a>
                     </li>
                     <li>
-                      <Link legacyBehavior href="contact">
-                        Contact Us
-                      </Link>
+                      <a href="#"> Contact Us </a>
                     </li>
                     <li>
-                      <Link legacyBehavior href="service">
-                        Service
-                      </Link>
+                      <a href="#"> Service </a>
+                    </li>
+                    <li>
+                      <a href="#"> Our Team </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-6">
+            <div className="col-lg-4 col6">
               <div className="widget widget-nav-menu">
                 <h4 className="widget-title"> Services </h4>
                 <div className="menu-quick-link-content">
                   <ul className="footer-menu">
                     <li>
-                      <a href="#"> Strategy &amp; Planing </a>
+                      <a href="#"> Business Management and strategy </a>
                     </li>
                     <li>
-                      <a href="#"> Consumer Market </a>
+                      <a href="#"> Human resource management & system </a>
                     </li>
                     <li>
-                      <a href="#"> Data Analysis </a>
+                      <a href="#">ISO international quality certification</a>
                     </li>
                     <li>
-                      <a href="#"> Corporate Finance </a>
+                      <a href="#"> Professional courses
+                      </a>
                     </li>
                     <li>
-                      <a href="#"> Market Research </a>
+                      <a href="#"> Professional Licensing programs</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div id="em-recent-post-widget" className="mt-5 mt-sm-0">
                 <div className="single-widget-item">
-                  <h4 className="widget-title pb-2">Popular Posts</h4>
-                  <div className="contact-form-footer ">
-                    <form onSubmit={(e) => e.preventDefault()}>
-                      <div className="subscribe_form">
-                        <input
-                          type="email"
-                          name="email"
-                          id="email"
-                          className="form-control"
-                          required=""
-                          data-error="Please enter your email"
-                          placeholder="Enter E-Mail"
-                        />
-                        <button type="submit" className="btn">
-                          {" "}
-                          <i className="bi bi-send-check" />
-                        </button>
-                      </div>
-                      <div className="subscribe_form_send"></div>
-                    </form>
-                  </div>
-                  <div className="recent-post-item">
-                    <div className="recent-post-thumb1">
+                  <h4 className="widget-title">Popular Posts</h4>
+                  <div className="recent-post-item active">
+                    <div className="recent-post-image">
                       <a href="#">
                         <img
-                          src="assets/images/resource/google-play.png"
+                          width={80}
+                          height={80}
+                          src="assets/images/resource/footer1.png"
                           alt=""
                         />
                       </a>
                     </div>
-                    <div className="recent-post-thumb">
+                    <div className="recent-post-text">
+                      <h6>
+                        <a href="#">How To Plugin Install WP server?</a>
+                      </h6>
+                      <span className="rcomment">Dec 12, 2023</span>
+                    </div>
+                  </div>
+                  <div className="recent-post-item">
+                    <div className="recent-post-image">
                       <a href="#">
                         <img
-                          src="assets/images/resource/app-store.png"
+                          width={80}
+                          height={80}
+                          src="assets/images/resource/footer2.png"
                           alt=""
                         />
                       </a>
+                    </div>
+                    <div className="recent-post-text">
+                      <h6>
+                        <a href="#">Top 10 Most Usefull Google Extansion</a>
+                      </h6>
+                      <span className="rcomment">Dec 15, 2023</span>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </div>
           <div className="foorer-shape">
             <div className="footer-thumb">
@@ -161,8 +195,9 @@ const DefaultFooter = () => {
               <div className="footer-bottom-content">
                 <div className="footer-bottom-content-copy">
                   <p>
-                    © 2023 <span>Consen</span> all rights reserved. Design By
-                    Dream-IT.
+                 
+                  The <span>Masterminds International</span> Operations & Accreditation
+                  Dream-IT.
                   </p>
                 </div>
               </div>
@@ -173,4 +208,4 @@ const DefaultFooter = () => {
     </div>
   );
 };
-export default DefaultFooter;
+export default Footer1;

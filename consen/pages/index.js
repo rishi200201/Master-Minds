@@ -15,11 +15,11 @@ const Index = () => {
           <div className="row align-items-center">
             <div className="col-lg-7 col-md-6">
               <div className="slider-content">
-                <h3> POWER YOUR FUTURE </h3>
-                <h1> Innovate Solution For </h1>
+                <h3 > POWER YOUR FUTURE </h3>
+                <h1 className="outlined-text"> Innovate Solution For </h1>
                 <h1>
                   {" "}
-                  Business <span>Success</span>{" "}
+                  Business <span className="outlined-text">Success </span>{" "}
                 </h1>
                 <p>
                   {" "}
@@ -31,12 +31,12 @@ const Index = () => {
               </div>
               <div className="banner-buttons">
                 <div className="slider-button">
-                  <Link legacyBehavior href="/service">
+                  {/* <Link legacyBehavior href="/service">
                     <a>
                       {" "}
                       Work Together <i className="bi bi-plus" />{" "}
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
                 <div className="slider-contact-box">
                   {/* <a className="contact-icon" href="tel:+983217690326">
@@ -60,21 +60,21 @@ const Index = () => {
                   className="video-vemo-icon venobox vbox-item"
                   data-vbtype="youtube"
                   data-autoplay="true"
-                  href="https://youtu.be/YeWkYSFlRT4?si=ZDI5_6CdDb6UgN8X"
+                  href="https://www.youtube.com/embed/YeWkYSFlRT4?si=3B5QZvymUEkE5239" 
                 >
                   <i className="fa fa-play" />
                 </a>
               </div>
             </div>
             {/* slider shape */}
-            <div className="slider-shape">
+            {/* <div className="slider-shape">
               <div className="slider-shape-thumb">
                 <img src="assets/images/slider/hero-shape.png" alt />
               </div>
               <div className="slider-shape-thumb2">
                 <img src="assets/images/slider/hero-shape2.png" alt />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -127,14 +127,14 @@ const Index = () => {
                       strateges emerging{" "} */}
                     </p>
                   </div>
-                  <div className="service-button">
+                  {/* <div className="service-button">
                     <Link legacyBehavior href="/service-details">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -157,14 +157,14 @@ const Index = () => {
                       strateges emerging{" "} */}
                     </p>
                   </div>
-                  <div className="service-button">
+                  {/* <div className="service-button">
                     <Link legacyBehavior href="/service-details">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -187,14 +187,14 @@ const Index = () => {
                       strateges emerging{" "} */}
                     </p>
                   </div>
-                  <div className="service-button">
+                  {/* <div className="service-button">
                     <Link legacyBehavior href="/service-details">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -218,14 +218,14 @@ const Index = () => {
                       strateges emerging{" "} */}
                     </p>
                   </div>
-                  <div className="service-button">
+                  {/* <div className="service-button">
                     <Link legacyBehavior href="/service-details">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

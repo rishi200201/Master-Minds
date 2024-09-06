@@ -3,7 +3,7 @@ import Layout from "@/src/layout/Layout";
 const PortfolioDetails = () => {
   return (
     <Layout>
-      <Breadcumb pageName={"Portfolio Detials"} />
+      {/* <Breadcumb pageName={"Portfolio Detials"} />
       <div className="case-study-details">
         <div className="container">
           <div className="case-study-intro">
@@ -117,7 +117,7 @@ const PortfolioDetails = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 };
