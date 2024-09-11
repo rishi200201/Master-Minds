@@ -63,7 +63,7 @@ Globally Accredited Professional Courses by International Accreditation Organiza
   <div className="row align-items-center">
   <div className="col-lg-4 text-center">
     <div className="vision-icon mb-3">
-      <img src="assets/images/resource/visionn.png" alt="Visionn Icon"style={{ maxWidth: '50px', height: 'auto', marginBottom: '15px' }} />
+      <img src="assets/images/resource/vision.jpg" alt="Visionn Icon"style={{ maxWidth: '50px', height: 'auto', marginBottom: '15px' }} />
     </div>
     <h4>VISION</h4>
     <p>
@@ -86,7 +86,7 @@ Globally Accredited Professional Courses by International Accreditation Organiza
   <div className="col-lg-4 text-center">
     <div className="strategy-icon mb-3">
      
-      <img src="assets/images/resource/strategyy.png" alt="Strategyy Icon"style={{ maxWidth: '50px', height: 'auto', marginBottom: '15px' }} />
+      <img src="assets/images/resource/strategy.png" alt="Strategyy Icon"style={{ maxWidth: '50px', height: 'auto', marginBottom: '15px' }} />
     </div>
     <h4>STRATEGY</h4>
     <p>
@@ -158,13 +158,13 @@ Globally Accredited Professional Courses by International Accreditation Organiza
         <div className="col-lg-4 col-md-6 grid-item physics english">
           <div className="case-study-single-box">
             <div className="case-study-thumb2">
-              <img src="assets/images/project/marine.png" alt />
+              <img src="assets/images/project/marine.jpg" alt />
               {/* port icon */}
               <div className="single_portfolio_icon">
                 <a
                   className="portfolio-icon venobox vbox-item"
                   data-gall="myportfolio"
-                  href="assets/images/project/marine.png"
+                  href="assets/images/project/marine.jpg"
                 >
                   <i className="bi bi-card-image" />
                 </a>
@@ -198,13 +198,13 @@ Globally Accredited Professional Courses by International Accreditation Organiza
         <div className="col-lg-4 col-md-6 grid-item physics chemistry math">
           <div className="case-study-single-box">
             <div className="case-study-thumb2">
-              <img src="assets/images/project/plane.png" alt />
+              <img src="assets/images/project/plane.jpg" alt />
               {/* port icon */}
               <div className="single_portfolio_icon">
                 <a
                   className="portfolio-icon venobox vbox-item"
                   data-gall="myportfolio"
-                  href="assets/images/project/plane.png"
+                  href="assets/images/project/plane.jpg"
                 >
                   <i className="bi bi-card-image" />
                 </a>
@@ -238,13 +238,13 @@ Globally Accredited Professional Courses by International Accreditation Organiza
         <div className="col-lg-4 col-md-6 grid-item chemistry english">
           <div className="case-study-single-box">
             <div className="case-study-thumb2">
-              <img src="assets/images/project/music.png" alt />
+              <img src="assets/images/project/music.jpg" alt />
               {/* port icon */}
               <div className="single_portfolio_icon">
                 <a
                   className="portfolio-icon venobox vbox-item"
                   data-gall="myportfolio"
-                  href="assets/images/project/music.png.png"
+                  href="assets/images/project/music.jgp"
                 >
                   <i className="bi bi-card-image" />
                 </a>
@@ -319,13 +319,13 @@ Globally Accredited Professional Courses by International Accreditation Organiza
         <div className="col-lg-4 col-md-6 grid-item math physics">
           <div className="case-study-single-box">
             <div className="case-study-thumb2">
-              <img src="assets/images/project/data.png" alt />
+              <img src="assets/images/project/data.jpg" alt />
               {/* port icon */}
               <div className="single_portfolio_icon">
                 <a
                   className="portfolio-icon venobox vbox-item"
                   data-gall="myportfolio"
-                  href="assets/images/project/data.png"
+                  href="assets/images/project/data.jpg"
                 >
                   <i className="bi bi-card-image" />
                 </a>
@@ -400,13 +400,13 @@ Globally Accredited Professional Courses by International Accreditation Organiza
         </div><div className="col-lg-4 col-md-6 grid-item chemistry physics">
           <div className="case-study-single-box">
             <div className="case-study-thumb2">
-              <img src="assets/images/project/media.png" alt />
+              <img src="assets/images/project/media.jpg" alt />
               {/* port icon */}
               <div className="single_portfolio_icon">
                 <a
                   className="portfolio-icon venobox vbox-item"
                   data-gall="myportfolio"
-                  href="assets/images/project/media.png"
+                  href="assets/images/project/media.jpg"
                 >
                   <i className="bi bi-card-image" />
                 </a>
