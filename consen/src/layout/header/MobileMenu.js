@@ -57,6 +57,11 @@ const MobileMenu = () => {
                     </Link>
                   </li>
                   <li>
+                    <Link legacyBehavior href="/index-4">
+                      <a>360° Software Solution</a>
+                    </Link>
+                  </li>
+                  <li>
                     <Link legacyBehavior href="/landing-1">
                       <a>Gobal Business Network Program</a>
                     </Link>

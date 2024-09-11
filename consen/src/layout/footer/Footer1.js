@@ -1,11 +1,37 @@
 import Link from "next/link";
+import React, { useState } from "react";
 
 const Footer1 = () => {
+  const [status, setStatus] = useState(""); // To track form submission status
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    })
+      .then((response) => {
+        if (response.ok) {
+          form.reset();
+          setStatus("SUCCESS");
+        } else {
+          setStatus("ERROR");
+        }
+      })
+      .catch(() => setStatus("ERROR"));
+  };
+
   return (
     <div className="footer-middle">
       <div className="container">
         <div className="subscribe-area">
-          <div className="row ">
+          <div className="row">
             <div className="col-lg-6 col-md-6">
               <div className="subscribe-title">
                 <h1>Subscribe to our Newsletter</h1>
@@ -13,7 +39,7 @@ const Footer1 = () => {
             </div>
             <div className="col-lg-6 col-md-6">
               <form
-                onSubmit={(e) => e.preventDefault()}
+                onSubmit={handleSubmit}
                 action="https://formspree.io/f/myyleorq"
                 method="POST"
                 id="dreamit-form"
@@ -24,161 +50,136 @@ const Footer1 = () => {
                     name="email"
                     id="email"
                     className="form-control"
-                    required=""
-                    data-error="Please enter your email"
+                    required
                     placeholder="Enter Your Email"
                   />
                   <button type="submit" className="btn">
                     Subscribe
                   </button>
                 </div>
-                <div className="subscribe_form_send"></div>
               </form>
-              <div id="status" />
+              <div id="status">
+                {status === "SUCCESS" && (
+                  <p className="success-message">Thanks for subscribing!</p>
+                )}
+                {status === "ERROR" && (
+                  <p className="error-message">
+                    Oops! There was an error. Please try again.
+                  </p>
+                )}
+              </div>
             </div>
           </div>
+
           <div className="subscribe-shape">
             <div className="subscribe-thumb bounce-animate5">
-              <img src="assets/images/resource/small-dot.png" alt="" />
+              <img src="assets/images/resource/small-dot.png" alt="small dot" />
             </div>
             <div className="subscribe-thumb1">
-              <img src="assets/images/resource/big-dot.png" alt="" />
+              <img src="assets/images/resource/big-dot.png" alt="big dot" />
             </div>
           </div>
         </div>
+
         <div className="footer-bg">
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="widget widgets-company-info mb-4 mb-lg-0">
                 <div className="company-info-desc pr-2">
-                  <h4 className="widget-title"> About Us </h4>
-                  <p>
-                  The Masterminds International Operations & Accreditation
-                  </p>
+                  <h4 className="widget-title">About Us</h4>
+                  <p>The Masterminds International Operations & Accreditation</p>
                 </div>
                 <div className="follow-company-icon">
-                  <a className="social-icon-color" href="https://www.facebook.com/people/The-Masterminds-International-Institutions/100075920930200/">
-                    
-                    <i className="bi bi-facebook" />{" "}
+                  <a
+                    className="social-icon-color"
+                    href="https://www.facebook.com/people/The-Masterminds-International-Institutions/100075920930200/"
+                  >
+                    <i className="bi bi-facebook" />
                   </a>
-                  <a className="social-icon-color2" href="https://www.instagram.com/_themasterminds_/?utm_medium=copy_link">
-                    {" "}
-                    <i className="bi bi-instagram"> </i>{" "}
+                  <a
+                    className="social-icon-color2"
+                    href="https://www.instagram.com/_themasterminds_/?utm_medium=copy_link"
+                  >
+                    <i className="bi bi-instagram" />
                   </a>
-                  <a className="social-icon-color1" href="https://x.com/i/flow/login?redirect_after_login=%2FTheMastminds">
-                  
-                    <i className="bi bi-twitter" />{" "}
+                  <a
+                    className="social-icon-color1"
+                    href="https://x.com/i/flow/login?redirect_after_login=%2FTheMastminds"
+                  >
+                    <i className="bi bi-twitter" />
                   </a>
-                  <a className="social-icon-color3" href="https://www.youtube.com/channel/UCKTWLPiv36wlFpblM9ycUnw">
-                    {" "}
-                    <i className="bi bi-youtube" />{" "}
+                  <a
+                    className="social-icon-color3"
+                    href="https://www.youtube.com/channel/UCKTWLPiv36wlFpblM9ycUnw"
+                  >
+                    <i className="bi bi-youtube" />
                   </a>
                 </div>
               </div>
             </div>
+
             <div className="col-lg-2 col-6">
               <div className="widget widget-nav-menu">
                 <h4 className="widget-title">Company</h4>
                 <div className="menu-quick-link-content">
                   <ul className="footer-menu">
                     <li>
-                      <a href="#"> Home </a>
+                      <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="#"> About U s</a>
+                      <a href="#">About Us</a>
                     </li>
                     <li>
-                      <a href="#"> Contact Us </a>
+                      <a href="contact">Contact Us</a>
                     </li>
                     <li>
-                      <a href="#"> Service </a>
+                      <a href="#">Service</a>
                     </li>
                     <li>
-                      <a href="#"> Our Team </a>
+                      <a href="#">Our Team</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col6">
+
+            <div className="col-lg-4 col-6">
               <div className="widget widget-nav-menu">
-                <h4 className="widget-title"> Services </h4>
+                <h4 className="widget-title">Services</h4>
                 <div className="menu-quick-link-content">
                   <ul className="footer-menu">
                     <li>
-                      <a href="#"> Business Management and strategy </a>
+                      <a href="index-1">Business Management and Strategy</a>
                     </li>
                     <li>
-                      <a href="#"> Human resource management & system </a>
+                      <a href="index-2">Human Resource Management & Systems</a>
                     </li>
                     <li>
-                      <a href="#">ISO international quality certification</a>
+                      <a href="index-3">ISO International Quality Certification</a>
                     </li>
                     <li>
-                      <a href="#"> Professional courses
-                      </a>
+                      <a href="index-4">360° Software Solution</a>
                     </li>
                     <li>
-                      <a href="#"> Professional Licensing programs</a>
+                      <a href="landing-1">Global Business Network Program</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-sm-6">
-              <div id="em-recent-post-widget" className="mt-5 mt-sm-0">
-                <div className="single-widget-item">
-                  <h4 className="widget-title">Popular Posts</h4>
-                  <div className="recent-post-item active">
-                    <div className="recent-post-image">
-                      <a href="#">
-                        <img
-                          width={80}
-                          height={80}
-                          src="assets/images/resource/footer1.png"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="recent-post-text">
-                      <h6>
-                        <a href="#">How To Plugin Install WP server?</a>
-                      </h6>
-                      <span className="rcomment">Dec 12, 2023</span>
-                    </div>
-                  </div>
-                  <div className="recent-post-item">
-                    <div className="recent-post-image">
-                      <a href="#">
-                        <img
-                          width={80}
-                          height={80}
-                          src="assets/images/resource/footer2.png"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="recent-post-text">
-                      <h6>
-                        <a href="#">Top 10 Most Usefull Google Extansion</a>
-                      </h6>
-                      <span className="rcomment">Dec 15, 2023</span>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
-            {/* </div> */}
           </div>
-          <div className="foorer-shape">
+
+          <div className="footer-shape">
             <div className="footer-thumb">
-              <img src="assets/images/resource/red-dot.png" alt="" />
+              <img src="assets/images/resource/red-dot.png" alt="red dot" />
             </div>
             <div className="footer-thumb1 bounce-animate2">
-              <img src="assets/images/resource/all-shape.png" alt="" />
+              <img src="assets/images/resource/all-shape.png" alt="shapes" />
             </div>
           </div>
         </div>
       </div>
+
       <div className="footer-bottom-area d-flex align-items-center">
         <div className="container">
           <div className="row d-flex align-items-center">
@@ -195,9 +196,8 @@ const Footer1 = () => {
               <div className="footer-bottom-content">
                 <div className="footer-bottom-content-copy">
                   <p>
-                 
-The <span>Masterminds International</span> Operations & Accreditation
-                  Dream-IT.
+                    The <span>Masterminds International</span> Operations &
+                    Accreditation by Dream-IT.
                   </p>
                 </div>
               </div>
@@ -208,4 +208,5 @@ The <span>Masterminds International</span> Operations & Accreditation
     </div>
   );
 };
+
 export default Footer1;
