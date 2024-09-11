@@ -3,7 +3,7 @@ import Link from "next/link";
 const Breadcumb = ({ pageName }) => {
   return (
     <div className="breadcumb-area d-flex align-items-center">
-      {/* <div className="container">
+      <div className="container">
         <div className="row d-flex align-items-center">
           <div className="col-lg-12">
             <div className="breadcumb-content">
@@ -27,7 +27,7 @@ const Breadcumb = ({ pageName }) => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div> 
     </div>
   );
 };

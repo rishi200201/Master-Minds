@@ -23,22 +23,22 @@ const Header2 = () => {
                 <div className="header_top_menu_icon_inner">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/people/The-Masterminds-International-Institutions/100075920930200/">
                         <i className="bi bi-facebook" />
                       </a>
                     </li>
-                    <li className="menu-icon">
+                    {/* <li className="menu-icon">
                       <a href="#">
                         <i className="bi bi-dribbble" />
                       </a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a href="#">
+                      <a href="https://x.com/TheMastminds?t=patVzCANPKlSun6jo3e2zw&s=09">
                         <i className="bi bi-twitter" />
                       </a>
                     </li>
                     <li className="menu-icon">
-                      <a href="#">
+                      <a href="https://www.instagram.com/_themasterminds_/?utm_medium=copy_link">
                         <i className="bi bi-instagram" />
                       </a>
                     </li>
@@ -121,62 +121,60 @@ const Header2 = () => {
                     </a>
                   </div>
                   <div className="content-box">
-                    <h2>About Us</h2>
+                    <h2>We’d love to hear from you!</h2>
                     <p className="text">
-                      The argument in favor of using filler text goes something
-                      like this: If you use real content in the Consulting
-                      Process, anytime you reach a review point you’ll end up
-                      reviewing and negotiating the content itself and not the
-                      design.
+                    
+                    No! You are not going to hit a long wait line to reach a real person. Neither is your email reaching any blackhole where things just disappear. Our customer first approach makes it natural to answer every query, request, or just a comment at a record response time.
                     </p>
-                    <a href="index" className="theme-btn btn-style-two">
+                    {/* <a href="index" className="theme-btn btn-style-two">
                       <span>Consultation</span> <i className="fas fa-heart" />
-                    </a>
+                    </a> */}
                   </div>
                   <div className="contact-info">
                     <h2>Contact Info</h2>
                     <ul className="list-style-one">
                       <li>
                         <span className="icon flaticon-email" />
-                        Chicago 12, Melborne City, USA
+                        No. 91, Murugesanar Street, Thiruvalluvar Nagar,
+Mugalivakkam, Chennai 600 125
                       </li>
                       <li>
                         <span>
                           {" "}
                           <i className="bi bi-telephone-inbound" />{" "}
                         </span>
-                        (+001) 123-456-7890
+                        +91 90877 19511
                       </li>
                       <li>
                         <span>
                           <i className="bi bi-geo-alt" />
                         </span>
-                        Example @gmail.com
+                        info@mastermindsgroup.org
                       </li>
-                      <li>
+                      {/* <li>
                         <span>
                           <i className="bi bi-clock" />
                         </span>
                         Week Days: 09.00 to 18.00 Sunday: Closed
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                   {/* Social Box */}
                   <ul className="social-box">
                     <li className="facebook">
-                      <a href="#" className="fab fa-facebook-f" />
+                      <a href="https://www.facebook.com/people/The-Masterminds-International-Institutions/100075920930200/" className="fab fa-facebook-f" />
                     </li>
                     <li className="twitter">
-                      <a href="#" className="fab fa-instagram" />
+                      <a href="https://www.instagram.com/_themasterminds_/?utm_medium=copy_link" className="fab fa-instagram" />
                     </li>
                     <li className="linkedin">
-                      <a href="#" className="fab fa-twitter" />
+                      <a href="https://x.com/TheMastminds?t=patVzCANPKlSun6jo3e2zw&s=09" className="fab fa-twitter" />
                     </li>
-                    <li className="instagram">
+                    {/* <>li className="instagram">
                       <a href="#" className="fab fa-pinterest-p" />
-                    </li>
+                    </li> */}
                     <li className="youtube">
-                      <a href="#" className="fab fa-linkedin-in" />
+                      <a href="https://www.linkedin.com/in/themastermindsinternational/" className="fab fa-linkedin-in" />
                     </li>
                   </ul>
                 </div>

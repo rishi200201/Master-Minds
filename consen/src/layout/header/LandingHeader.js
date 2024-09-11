@@ -22,7 +22,7 @@ const LandingHeader = () => {
                 <div className="header_top_menu_icon_inner">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/people/The-Masterminds-International-Institutions/100075920930200/">
                         <i className="bi bi-facebook" />
                       </a>
                     </li>
@@ -32,12 +32,12 @@ const LandingHeader = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://x.com/i/flow/login?redirect_after_login=%2FTheMastminds">
                         <i className="bi bi-twitter" />
                       </a>
                     </li>
                     <li className="menu-icon">
-                      <a href="#">
+                      <a href="https://www.instagram.com/_themasterminds_/?utm_medium=copy_link">
                         <i className="bi bi-instagram" />
                       </a>
                     </li>

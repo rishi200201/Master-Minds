@@ -97,14 +97,14 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-5 col-md-4">
-              <div className="consen-button text-right">
+              {/* <div className="consen-button text-right">
                 <Link legacyBehavior href="/service">
                   <a>
                     {" "}
                     View All <i className="bi bi-plus" />{" "}
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="row">
@@ -127,14 +127,14 @@ const Index = () => {
                       strateges emerging{" "} */}
                     </p>
                   </div>
-                  {/* <div className="service-button">
-                    <Link legacyBehavior href="/service-details">
+                  <div className="service-button">
+                    <Link legacyBehavior href="index-1">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -157,14 +157,14 @@ const Index = () => {
                       strateges emerging{" "} */}
                     </p>
                   </div>
-                  {/* <div className="service-button">
-                    <Link legacyBehavior href="/service-details">
+                  <div className="service-button">
+                    <Link legacyBehavior href="index-2">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -187,14 +187,14 @@ const Index = () => {
                       strateges emerging{" "} */}
                     </p>
                   </div>
-                  {/* <div className="service-button">
-                    <Link legacyBehavior href="/service-details">
+                  <div className="service-button">
+                    <Link legacyBehavior href="landing-1">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -218,14 +218,45 @@ const Index = () => {
                       strateges emerging{" "} */}
                     </p>
                   </div>
-                  {/* <div className="service-button">
-                    <Link legacyBehavior href="/service-details">
+                  <div className="service-button">
+                    <Link legacyBehavior href="index-3">
                       <a>
                         {" "}
                         Read More <i className="bi bi-plus" />{" "}
                       </a>
                     </Link>
-                  </div> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6 p-0">
+              <div className="dreamit-service-box">
+                <div className="service-box-inner">
+                  <div className="em-service-icon">
+                    <img src="assets/images/resource/service-icon.png" alt />
+                  </div>
+                  <div className="em-service-title">
+                    <h2>360° Software Solutions </h2>
+                  </div>
+                  <div className="service-number">
+                    {/* <h1> 05 </h1> */}
+                  </div>
+                  <div className="em-service-text">
+                    <p>
+                      {" "}
+                      {/* Dramatically cultivate from quality user centric growth
+                      strateges emerging{" "} */}
+                    </p>
+                  </div>
+                  <div className="service-button">
+                    <Link legacyBehavior href="index-4">
+                      <a>
+                        {" "}
+                        Read More <i className="bi bi-plus" />{" "}
+                      </a>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -289,14 +320,14 @@ const Index = () => {
                   </li>
                 </ul>
               </div> */}
-              <div className="about-button">
+              {/* <div className="about-button">
                 <Link legacyBehavior href="/about">
                   <a>
                     {" "}
                     Learn More <i className="bi bi-plus" />{" "}
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
             {/* about thumb */}
             <div className="about-shape-thumb2 bounce-animate4">
@@ -333,9 +364,9 @@ const Index = () => {
               <div className="counter-single-box">
                 <div className="counter-title">
                   <h4>
-                    <Counter end={9} />
+                    <Counter end={9000} />
                   </h4>
-                  <span>k+</span>
+                  <span>  +</span>
                   <p>Online Courses</p>
                 </div>
               </div>
@@ -344,9 +375,9 @@ const Index = () => {
               <div className="counter-single-box">
                 <div className="counter-title">
                   <h4>
-                    <Counter end={23} />
+                    <Counter end={23000} />
                   </h4>
-                  <span>k+</span>
+                  <span>+</span>
                   <p>People Worldwide</p>
                 </div>
               </div>
@@ -384,16 +415,16 @@ const Index = () => {
               </div>
               <div className="dreamit-ceo-title">
                 <h4>TRUSTED BY</h4>
-                <span>GLOBALLY PROFESSIONALS</span>
+                <span>PROFESSIONALS GLOBALLY </span>
               </div>
-              <div className="about-button">
+              {/* <div className="about-button">
                 <Link legacyBehavior href="/testimonial">
                   <a>
                     {" "}
                     View Courses <i className="bi bi-plus" />{" "}
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
             {/* ----------------------------------------------------------------------- */}
             <div className="col-lg-6 col-md-12">
@@ -402,7 +433,7 @@ const Index = () => {
               </div>
               <div className="about-shape-box">
                 <div className="about-shape-thumb bounce-animate">
-                  ??<img src="assets/images/about/ab-shape.png" alt />
+                <img src="assets/images/about/ab-shape.png" alt />
                 </div>
               </div>
             </div>
@@ -795,14 +826,14 @@ const Index = () => {
                 The Masterminds International offers the best-in-class instructor-led and self-paced training courses, industry certification courses, and a range of business Strategies such as Global Business Management and Strategy, Human Resource Management and Systems, ISO Certifications, 360 Degree Software Solutions, International Business Networking and Opportunities. We help organizations large and small to cut costs, improve customer satisfaction, manage risk, and improve business operations. Our professional courses are designed by industry experts, to ensure that you learn the skills employers are looking for – now, and in the future.
                 </p>
               </div>
-              <div className="about-button">
+              {/* <div className="about-button">
                 <Link legacyBehavior href="/about">
                   <a>
                     {" "}
                     More About <i className="bi bi-plus" />{" "}
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="row pt-50">
@@ -923,14 +954,14 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-5 col-md-4">
-              <div className="consen-button text-right">
+              {/* <div className="consen-button text-right">
                 <Link legacyBehavior href="/blog-grid">
                   <a>
                     {" "}
                     View all Blog <i className="bi bi-plus" />{" "}
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="row">

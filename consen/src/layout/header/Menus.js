@@ -14,7 +14,7 @@ export const DaskTopMenusMenus = () => {
         <ul className="sub-menu">
           {" "}
           <li>
-            <Link legacyBehavior href="/">
+            <Link legacyBehavior href="index-1">
              Global Business Management and Strategy
             </Link>
           </li>{" "}
@@ -28,11 +28,11 @@ export const DaskTopMenusMenus = () => {
               <a>ISO International Quality Management Certification</a>
             </Link>
           </li>{" "}
-          {/* <li>
-            <Link legacyBehavior href="/landing-1">
-              <a>360* Software Solutions</a>
+          <li>
+            <Link legacyBehavior href="/index-4">
+              <a>360° Software Solutions</a>
             </Link>
-          </li> */}
+          </li>
           <li>
             <Link legacyBehavior href="/landing-1">
               <a>Global Business Network Program</a>
@@ -92,7 +92,7 @@ export const DaskTopMenusMenus = () => {
         </ul>
       </li>{" "}
       <li>
-        <a href="#">
+        <a href="license">
         Licensing{" "}
           <span>
             <i className="fas fa-angle-down" />
@@ -124,34 +124,34 @@ export const DaskTopMenusMenus = () => {
             <i className="fas fa-angle-down" />
           </span>
         </a>
-        {/* <ul className="sub-menu">
+        <ul className="sub-menu">
           {" "}
           <li>
-            <Link legacyBehavior href="blog-grid">
+            <Link legacyBehavior href="">
               Image Gallery
             </Link>
           </li>{" "}
           <li>
-            <Link legacyBehavior href="blog-list">
+            <Link legacyBehavior href="">
               Events
             </Link>
           </li>{" "}
           <li>
-            <Link legacyBehavior href="blog-2column">
+            <Link legacyBehavior href="">
               Journals and Publication 
             </Link>
           </li>{" "}
           <li>
-            <Link legacyBehavior href="blog-details">
+            <Link legacyBehavior href="">
               Media News
             </Link>
           </li>
           <li>
-            <Link legacyBehavior href="blog-details">
+            <Link legacyBehavior href="">
               Professional's Achievements 
             </Link>
           </li>
-        </ul> */}
+        </ul>
       </li>{" "}
       <li>
         <Link legacyBehavior href="contact">

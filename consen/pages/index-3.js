@@ -234,9 +234,9 @@ const Index3 = () => {
             <p>
               The process approach includes monitoring, measurements, analysis, and evaluation of existing systems.
             </p>
-            <Link legacyBehavior href="/service">
+            {/* <Link legacyBehavior href="/service">
               <a>Read More</a>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
@@ -253,9 +253,9 @@ const Index3 = () => {
             <p>
               We provide a risk management framework that increases the ability to anticipate unexpected events.
             </p>
-            <Link legacyBehavior href="/service">
+            {/* <Link legacyBehavior href="/service">
               <a>Read More</a>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

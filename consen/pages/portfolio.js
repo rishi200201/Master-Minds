@@ -10,7 +10,7 @@ const CaseStudies = dynamic(
 const Portfolio = () => {
   return (
     <Layout>
-      <Breadcumb pageName={"Portfolio"} />
+      <Breadcumb pageName={"COURSES"} />
       {/*==================================================*/}
       {/* Start consen case study Area */}
       {/*==================================================*/}

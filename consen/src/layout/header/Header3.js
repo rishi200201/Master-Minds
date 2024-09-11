@@ -12,35 +12,35 @@ const Header3 = () => {
                 <ul>
                   <li>
                     <a href="#">
-                      <i className="fas fa-envelope" /> example@example.com
+                      <i className="fas fa-envelope" /> info@mastermindsgroup.org
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="fas fa-map-marker-alt" />{" "}
-                    <span>1st Floor New World.</span>
-                  </li>
-                  <li>
+                    <span>CHENNAI</span>
+                  </li> */}
+                  {/* <li>
                     <a href="#">
-                      <i className="fas fa-phone" /> +880 320 432 242
+                      <i className="fas fa-phone" />  +91 98415 88775
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="header-top-social">
-                <a href="#">
+                <a href="https://www.facebook.com/people/The-Masterminds-International-Institutions/100075920930200/">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a href="#">
+                <a href="https://x.com/TheMastminds?t=patVzCANPKlSun6jo3e2zw&s=09">
                   <i className="fab fa-twitter" />
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/_themasterminds_/?utm_medium=copy_link">
                   <i className="fab fa-instagram" />
                 </a>
-                <a href="#">
+                {/* <a href="#">
                   <i className="fab fa-dribbble" />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

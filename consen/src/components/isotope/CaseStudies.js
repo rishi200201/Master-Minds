@@ -40,13 +40,75 @@ const CaseStudies = () => {
       <div className="row case-study-bg">
         <div className="col-lg-12">
           <div className="consen-section-title upper text-center pb-50">
-            <h5> Case Studies </h5>
-            <h2> We Server the Best Works </h2>
-            <h2>
-              View <span> Case Studies </span>
-            </h2>
+            {/* <h5> Case Studies </h5> */}
+            <h2> The Masterminds International Institutions </h2>
+           <p>
+            An Accredited International Institution for Quality Management Systems and Standards by
+
+Global Euro Accreditation Centre (GEAC), Tbilisi, Georgia and Royal Stancert BV, Amsterdam, Netherlands, Europe &
+
+Globally Accredited Professional Courses by International Accreditation Organization (IAO), Houston USA.</p>
+<h5> (American Academic Board Credit Points and GPA Systems) </h5>
+
           </div>
         </div>
+        <div className="col-lg-12">
+          <div className="consen-section-title upper text-center pb-50">
+            {/* <h5> Case Studies </h5> */}
+           
+            <p>
+            The Masterminds International Institutions offers professional degree/diploma, job-oriented programs to up-skill the knowledge to match the industry/institutionalrequirements. C lassified into School of Management, School of Engineering, School of Informatics and Data Management, School of Science and Technology, School of Allied Health Sciences, School of International Languages, School of Marine Management, School of Aviation Management, School of Music & Arts and Professional Licensing Program. We have a dedicated set of professionals ranging from business tycoons to academicians and industrial experts around the world that work round the clock to provide you with the best assistance possible. We have an Accredited International Institution for Quality Management Systems and Standards by Global Euro Accreditation Centre (GEAC), Tbilisi, Georgia and Royal Stancert BV, Amsterdam, Netherlands, Europe & Globally Accredited Professional Courses by International Accreditation Organization (IAO), Houston, USA, that provides certifications and opportunities for all at any point in their lives, bringing out the multi-talented individual with the choice of customizations, and helps in completing this at any pace to save time and develop from a professional to a qualified expert.</p>
+            </div>
+
+  <div className="row align-items-center">
+  <div className="col-lg-4 text-center">
+    <div className="vision-icon mb-3">
+      <img src="assets/images/resource/vision.png" alt="Vision Icon"style={{ maxWidth: '50px', height: 'auto', marginBottom: '15px' }} />
+    </div>
+    <h4>VISION</h4>
+    <p>
+      The Masterminds International to be the preferred online partner for
+      every career aspirant across the globe amongst the focused groups.
+    </p>
+  </div>
+  <div className="col-lg-4 text-center">
+    <div className="purpose-icon mb-3">
+    <img src="assets/images/resource/purpose.png" alt="Purpose Icon" style={{ maxWidth: '50px', height: 'auto', marginBottom: '15px' }} />
+
+    </div>
+    <h4>PURPOSE</h4>
+    <p>
+      To provide contemporary, tertiary, and flexible online education to
+      accelerate career choices and aspirations beyond boundaries across the
+      pyramid.
+    </p>
+  </div>
+  <div className="col-lg-4 text-center">
+    <div className="strategy-icon mb-3">
+     
+      <img src="assets/images/resource/strategy.png" alt="Strategy Icon"style={{ maxWidth: '50px', height: 'auto', marginBottom: '15px' }} />
+    </div>
+    <h4>STRATEGY</h4>
+    <p>
+      To evoke the career instinct for every career aspirant by focused
+      promotion and effortless reach to The Masterminds International.
+    </p>
+ 
+</div>
+</div>
+  </div>
+  
+          <div className="col-lg-12">
+          <div className="consen-section-title upper text-center pb-50">
+            <h5> CORE OBJECTIVES</h5>
+            <h6>
+            We craft courses for acquiring, retaining and growing in multiple, aspiring & boundaryless career ladders</h6>
+          </div>
+        </div>
+          
+            
+      
+        
         <div className="portfolio-shape">
           <div className="port-shape-thumb rotateme">
             <img src="assets/images/resource/red-dot.png" alt />
@@ -223,7 +285,7 @@ const CaseStudies = () => {
                 <a
                   className="portfolio-icon venobox vbox-item"
                   data-gall="myportfolio"
-                  href="assets/images/project/management.jpegg"
+                  href="assets/images/project/management.jpeg"
                 >
                   <i className="bi bi-card-image" />
                 </a>
