@@ -10,7 +10,7 @@ const DefaultHeader = () => {
             <div className="logo">
               <Link legacyBehavior href="/">
                 <a className="logo_img" title="consen">
-                  <img src="assets/images/mmg.png" alt="logo" />
+                  <img src="assets/images/logo.png" alt="logo" />
                 </a>
               </Link>
               <Link legacyBehavior href="/">

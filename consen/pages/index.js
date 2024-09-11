@@ -479,41 +479,7 @@ const Index = () => {
           </div>
           <div className="row">
             <Swiper {...caseStudyProps} className="case-study owl-carousel">
-            <SwiperSlide>
-                <div className="case-study-single-box">
-                  <div className="case-study-thumb">
-                    <img src="assets/images/project/untitled-design-6.png" alt />
-                    <div className="case-study-content">
-                      <div className="case-study-title">
-                        {/* <h6> Consulting </h6> */}
-                        <h3>
-                          {" "}
-                          <Link legacyBehavior href="/portfolio-details">
-                            <a> School of Arts & Music</a>
-                          </Link>
-                        </h3>
-                      </div>
-                      <div className="case-button">
-                        <Link legacyBehavior href="/portfolio-details">
-                          <a>
-                            Read More <i className="bi bi-plus" />{" "}
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                    {/* <div className="video-icon style-two">
-                      <a
-                        className="video-vemo-icon venobox vbox-item"
-                        data-vbtype="youtube"
-                        data-autoplay="true"
-                        href="https://youtu.be/YeWkYSFlRT4?si=ZDI5_6CdDb6UgN8X"
-                      >
-                        <i className="fa fa-play" />
-                      </a>
-                    </div> */}
-                  </div>
-                </div>
-              </SwiperSlide>
+            
               <SwiperSlide>
                 <div className="case-study-single-box">
                   <div className="case-study-thumb">
@@ -529,7 +495,7 @@ const Index = () => {
                         </h3>
                       </div>
                       <div className="case-button">
-                        <Link legacyBehavior href="/portfolio-details">
+                        <Link legacyBehavior href="">
                           <a>
                             Read More <i className="bi bi-plus" />{" "}
                           </a>
@@ -587,7 +553,7 @@ const Index = () => {
               <SwiperSlide>
                 <div className="case-study-single-box">
                   <div className="case-study-thumb">
-                    <img src="assets/images/project/untitled-design-8.png" alt />
+                    <img src="assets/images/project/data.jpg" alt />
                     <div className="case-study-content">
                       <div className="case-study-title">
                         {/* <h6> Consulting </h6> */}
@@ -599,7 +565,7 @@ const Index = () => {
                         </h3>
                       </div>
                       <div className="case-button">
-                        <Link legacyBehavior href="/portfolio-details">
+                        <Link legacyBehavior href="">
                           <a>
                             Read More <i className="bi bi-plus" />{" "}
                           </a>
@@ -622,7 +588,7 @@ const Index = () => {
               <SwiperSlide>
                 <div className="case-study-single-box">
                   <div className="case-study-thumb">
-                    <img src="assets/images/project/untitled-design-7.png" alt />
+                    <img src="assets/images/project/marine.jpg" alt />
                     <div className="case-study-content">
                       <div className="case-study-title">
                         {/* <h6> Consulting </h6> */}
@@ -634,7 +600,7 @@ const Index = () => {
                         </h3>
                       </div>
                       <div className="case-button">
-                        <Link legacyBehavior href="/portfolio-details">
+                        <Link legacyBehavior href="">
                           <a>
                             Read More <i className="bi bi-plus" />{" "}
                           </a>
@@ -657,7 +623,7 @@ const Index = () => {
               <SwiperSlide>
                 <div className="case-study-single-box">
                   <div className="case-study-thumb">
-                    <img src="assets/images/project/untitled-design-9.png" alt />
+                    <img src="assets/images/project/plane.jpg" alt />
                     <div className="case-study-content">
                       <div className="case-study-title">
                         {/* <h6> Consulting </h6> */}
@@ -669,7 +635,7 @@ const Index = () => {
                         </h3>
                       </div>
                       <div className="case-button">
-                        <Link legacyBehavior href="/portfolio-details">
+                        <Link legacyBehavior href="">
                           <a>
                             Read More <i className="bi bi-plus" />{" "}
                           </a>
@@ -689,42 +655,7 @@ const Index = () => {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
-                <div className="case-study-single-box">
-                  <div className="case-study-thumb">
-                    <img src="assets/images/project/untitled-design-4.png" alt />
-                    <div className="case-study-content">
-                      <div className="case-study-title">
-                        {/* <h6> Consulting </h6> */}
-                        <h3>
-                          {" "}
-                          <Link legacyBehavior href="/portfolio-details">
-                            <a>School of Media & Animation</a>
-                          </Link>
-                        </h3>
-                      </div>
-                      <div className="case-button">
-                        <Link legacyBehavior href="/portfolio-details">
-                          <a>
-                            Read More <i className="bi bi-plus" />{" "}
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                    {/* <div className="video-icon style-two">
-                      <a
-                        className="video-vemo-icon venobox vbox-item"
-                        data-vbtype="youtube"
-                        data-autoplay="true"
-                        href="https://youtu.be/YeWkYSFlRT4?si=ZDI5_6CdDb6UgN8X"
-                      >
-                        <i className="fa fa-play" />
-                      </a>
-                    </div> */}
-                  </div>
-                </div>
-              </SwiperSlide>
-             
+              
             </Swiper>
           </div>
         </div>
