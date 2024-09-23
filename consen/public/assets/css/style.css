@@ -165,7 +165,7 @@ li.menu-icon a {
 /*================================
 <--  Consen Nav Menu Area Css -->
 ==================================*/
-.consen_nav_manu {
+._nav_manu {
   background: transparent;
   transition: 0.5s;
   z-index: 2;
@@ -174,7 +174,7 @@ li.menu-icon a {
   margin-bottom: -88px;
 }
 
-.consen_nav_manu.transparent_menu {
+._nav_manu.transparent_menu {
   background: transparent;
   margin-bottom: -87px;
   position: relative;
@@ -193,23 +193,23 @@ li.menu-icon a {
   z-index: 9;
 }
 
-/* consen Menu Css*/
-nav.consen_menu {
+/*  Menu Css*/
+nav._menu {
   text-align: right;
 }
 
-.consen_menu ul {
+._menu ul {
   list-style: none;
   display: inline-block;
 }
 
-.consen_menu > ul > li {
+._menu > ul > li {
   display: inline-block;
   position: relative;
   z-index: 1;
 }
 
-.consen_menu > ul > li > a {
+._menu > ul > li > a {
   display: block;
   margin: 30px 10px;
   -webkit-transition: 0.5s;
@@ -219,14 +219,14 @@ nav.consen_menu {
   font-weight: 400;
 }
 
-nav.consen_menu span {
+nav._menu span {
   font-size: 13px;
   padding-left: 6px;
   font-family: FontAwesome;
   opacity: 0.5;
 }
 
-.consen_menu > ul > li > a:hover {
+._menu > ul > li > a:hover {
   color: #ff3c00;
 }
 
@@ -267,8 +267,8 @@ nav.consen_menu span {
   transform: scale(1);
 }
 
-/*consen nav menu style two*/
-.style-two.consen_nav_manu {
+/* nav menu style two*/
+.style-two._nav_manu {
   background: transparent;
   transition: 0.5s;
   z-index: 2;
@@ -290,11 +290,11 @@ nav.consen_menu span {
   z-index: 1;
 }
 
-.style-two nav.consen_menu {
+.style-two nav._menu {
   text-align: left;
 }
 
-.style-two .consen_menu > ul > li > a {
+.style-two ._menu > ul > li > a {
   color: #232323;
 }
 
@@ -302,19 +302,19 @@ nav.consen_menu span {
   padding-left: 25px;
 }
 
-.style-two .consen_menu > ul > li > a:hover {
+.style-two ._menu > ul > li > a:hover {
   color: #ff3c00;
 }
 
 /* Style Three */
-.consen_nav_manu.style-three {
+._nav_manu.style-three {
   margin-bottom: 0;
 }
-.consen_nav_manu.style-three.sticky {
+._nav_manu.style-three.sticky {
   background: #fff !important;
 }
 /*** Sub Menu Style ***/
-.consen_menu ul .sub-menu {
+._menu ul .sub-menu {
   position: absolute;
   left: 0;
   top: 130%;
@@ -331,17 +331,17 @@ nav.consen_menu span {
   opacity: 0;
 }
 
-.consen_menu ul li:hover > .sub-menu {
+._menu ul li:hover > .sub-menu {
   visibility: visible;
   top: 100%;
   opacity: 1;
 }
 
-.consen_menu ul .sub-menu li {
+._menu ul .sub-menu li {
   position: relative;
 }
 
-.consen_menu ul .sub-menu li a {
+._menu ul .sub-menu li a {
   display: block;
   padding: 12px 20px;
   margin: 0;
@@ -357,34 +357,34 @@ nav.consen_menu span {
   color: #211e3b !important;
 }
 
-.consen_menu ul .sub-menu li:hover > a,
-.consen_menu ul .sub-menu .sub-menu li:hover > a,
-.consen_menu ul .sub-menu .sub-menu .sub-menu li:hover > a,
-.consen_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover > a {
+._menu ul .sub-menu li:hover > a,
+._menu ul .sub-menu .sub-menu li:hover > a,
+._menu ul .sub-menu .sub-menu .sub-menu li:hover > a,
+._menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover > a {
   background: #ff3c00;
   color: #fff !important;
 }
 
 /* sub menu 2 */
-.consen_menu ul .sub-menu .sub-menu {
+._menu ul .sub-menu .sub-menu {
   left: 100%;
   top: 130%;
   opacity: 0;
   visibility: hidden;
 }
 
-.consen_menu ul .sub-menu li:hover > .sub-menu {
+._menu ul .sub-menu li:hover > .sub-menu {
   opacity: 1;
   visibility: visible;
   top: 0%;
 }
 
 /* sub menu 3 */
-.consen_menu ul .sub-menu .sub-menu li {
+._menu ul .sub-menu .sub-menu li {
   position: relative;
 }
 
-.consen_menu ul .sub-menu .sub-menu .sub-menu {
+._menu ul .sub-menu .sub-menu .sub-menu {
   right: 100%;
   left: auto;
   top: 130%;
@@ -392,7 +392,7 @@ nav.consen_menu span {
   visibility: hidden;
 }
 
-.consen_menu ul .sub-menu .sub-menu li:hover > .sub-menu {
+._menu ul .sub-menu .sub-menu li:hover > .sub-menu {
   opacity: 1;
   visibility: visible;
   top: 0%;
@@ -414,21 +414,21 @@ ul.sub-menu li:hover a span {
 }
 
 /* sub menu 4 */
-.consen_menu ul .sub-menu .sub-menu .sub-menu li {
+._menu ul .sub-menu .sub-menu .sub-menu li {
   position: relative;
 }
 
-.consen_menu ul .sub-menu .sub-menu .sub-menu li:hover > .sub-menu {
+._menu ul .sub-menu .sub-menu .sub-menu li:hover > .sub-menu {
   opacity: 1;
   visibility: visible;
   top: 0%;
 }
 
-.consen_menu li a:hover:before {
+._menu li a:hover:before {
   width: 101%;
 }
 
-.consen_nav_manu.sticky .logo_img {
+._nav_manu.sticky .logo_img {
   display: none;
 }
 
@@ -436,21 +436,21 @@ ul.sub-menu li:hover a span {
   display: none;
 }
 
-.consen_nav_manu.sticky .main_sticky {
+._nav_manu.sticky .main_sticky {
   display: inherit;
 }
 
-.sticky .consen_menu li a {
+.sticky ._menu li a {
   color: #fff;
 }
 
-.consen_nav_manu.sticky a.dtbtn {
+._nav_manu.sticky a.dtbtn {
   color: #fff;
   background: #f16722;
   border: 2px solid #f16722;
 }
 
-.consen_nav_manu.sticky a.dtbtn:hover {
+._nav_manu.sticky a.dtbtn:hover {
   color: #43baff;
 }
 
@@ -459,18 +459,18 @@ ul.sub-menu li:hover a span {
 }
 
 /*Sub menu style three*/
-.consen_nav_manu.style-three .consen_menu > ul > li > a {
+._nav_manu.style-three ._menu > ul > li > a {
   color: #232323;
   font-weight: 500;
 }
-.consen_nav_manu.style-three .header-button a {
+._nav_manu.style-three .header-button a {
   border-radius: 0;
   border: 1px solid #ff3c00;
 }
-.consen_nav_manu.style-three .header-button a:before {
+._nav_manu.style-three .header-button a:before {
   border-radius: 0;
 }
-.consen_nav_manu.style-three .header-button a:hover {
+._nav_manu.style-three .header-button a:hover {
   border: 1px solid #10102e;
 }
 
@@ -934,22 +934,22 @@ ul.sub-menu li:hover a span {
 ======================================================
 <--  Consen Section Title Css -->
 ======================================================**/
-.consen-section-title h2 {
+.-section-title h2 {
   font-size: 36px;
   margin: 0;
 }
 
-.consen-section-title span {
+.-section-title span {
   color: #ff3c00;
 }
 
-.consen-section-title p {
+.-section-title p {
   opacity: 70%;
   padding: 13px 0 0;
 }
 
 /*style two*/
-.consen-section-title h5 {
+.-section-title h5 {
   font-size: 18px;
   text-transform: capitalize;
   font-weight: 500;
@@ -960,7 +960,7 @@ ul.sub-menu li:hover a span {
   display: inline-block;
 }
 
-.consen-section-title h5:before {
+.-section-title h5:before {
   position: absolute;
   content: "";
   top: 10px;
@@ -971,12 +971,12 @@ ul.sub-menu li:hover a span {
 }
 
 /*center before after*/
-.upper.consen-section-title h5 {
+.upper.-section-title h5 {
   left: 0px;
   margin-left: 0;
 }
 
-.upper.consen-section-title h5::before {
+.upper.-section-title h5::before {
   position: absolute;
   content: "";
   top: 10px;
@@ -987,7 +987,7 @@ ul.sub-menu li:hover a span {
   background: #ff3c00;
 }
 
-.upper.consen-section-title h5:after {
+.upper.-section-title h5:after {
   position: absolute;
   content: "";
   top: 10px;
@@ -1092,7 +1092,7 @@ ul.sub-menu li:hover a span {
   transition: 0.5s;
 }
 
-/*consen box button*/
+/* box button*/
 
 .service-button a {
   padding: 8px 18px 8px 24px;
@@ -1132,8 +1132,8 @@ ul.sub-menu li:hover a span {
   transition: 0.5s;
 }
 
-/*consen button*/
-.consen-button a {
+/* button*/
+.-button a {
   padding: 10px 14px 15px 42px;
   font-family: "Fira Sans";
   font-weight: 500;
@@ -1147,7 +1147,7 @@ ul.sub-menu li:hover a span {
   overflow: hidden;
 }
 
-.consen-button a:before {
+.-button a:before {
   position: absolute;
   content: "";
   z-index: -1;
@@ -1160,7 +1160,7 @@ ul.sub-menu li:hover a span {
   transition: 0.5s;
 }
 
-.consen-button a i {
+.-button a i {
   font-size: 20px;
   width: 30px;
   height: 30px;
@@ -1176,16 +1176,16 @@ ul.sub-menu li:hover a span {
   transition: 0.5s;
 }
 
-.consen-button a:hover {
+.-button a:hover {
   color: #ff3b00;
 }
 
-.consen-button a:hover:before {
+.-button a:hover:before {
   width: 100%;
   left: 0;
 }
 
-.consen-button a:hover i {
+.-button a:hover i {
   background: #ff3b00;
   color: #fff;
 }
@@ -1495,7 +1495,7 @@ ul.sub-menu li:hover a span {
   padding: 100px 0 70px;
 }
 
-.service-detials-area .consen-service-thumb img {
+.service-detials-area .-service-thumb img {
   width: 100%;
 }
 
@@ -4394,11 +4394,11 @@ p.slill-text {
 }
 
 /*blog button*/
-.blog-area.style-two .consen-button a {
+.blog-area.style-two .-button a {
   padding: 15px 33px;
 }
 
-.blog-area.style-two .consen-button a i {
+.blog-area.style-two .-button a i {
   font-size: 20px;
   width: 0;
   height: 0;
@@ -4414,7 +4414,7 @@ p.slill-text {
 }
 
 /*blog all hover*/
-.blog-area.style-two .consen-button a:hover i {
+.blog-area.style-two .-button a:hover i {
   color: #ff3c00;
 }
 
@@ -5997,7 +5997,7 @@ span.fill {
 }
 
 /*feature back title*/
-.consen-feature-back {
+.-feature-back {
   position: absolute;
   top: 0;
   left: 0;
@@ -6062,7 +6062,7 @@ span.fill {
   opacity: 0;
 }
 
-.single-feature-box:hover .consen-feature-back {
+.single-feature-box:hover .-feature-back {
   transform: perspective(500px) rotateX(0deg);
 }
 

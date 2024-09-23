@@ -66,7 +66,7 @@ const Index4 = () => {
           <div className="row">
             {/* Text Content */}
             <div className="col-12">
-              <div className="consen-section-title full-width-content">
+              <div className="-section-title full-width-content">
                 <p>
                   <strong>T</strong>he Masterminds panel of academic and professional experts have designed licensing programs to certify credential awards to individuals as well as professionals. Our main aim is to establish core objectives and processes for assessing occupational competence that are internationally accepted for identification, codification, and validation of skills and competencies in a variety of occupations.
                 </p>

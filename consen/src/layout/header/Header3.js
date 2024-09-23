@@ -12,7 +12,7 @@ const Header3 = () => {
                 <ul>
                   <li>
                     <a href="#">
-                      <i className="fas fa-envelope" /> info@mastermindsgroup.org
+                      <i className="fas fa-envelope" /> info@group.org
                     </a>
                   </li>
                   {/* <li>
@@ -35,7 +35,7 @@ const Header3 = () => {
                 <a href="https://x.com/TheMastminds?t=patVzCANPKlSun6jo3e2zw&s=09">
                   <i className="fab fa-twitter" />
                 </a>
-                <a href="https://www.instagram.com/_themasterminds_/?utm_medium=copy_link">
+                <a href="https://www.instagram.com/_the_/?utm_medium=copy_link">
                   <i className="fab fa-instagram" />
                 </a>
                 {/* <a href="#">
@@ -51,26 +51,26 @@ const Header3 = () => {
       {/*==================================================*/}
       <div
         id="sticky-header"
-        className="consen_nav_manu style-three header____"
+        className="_nav_manu style-three header____"
       >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-3">
               <div className="logo">
                 <Link legacyBehavior href="/">
-                  <a className="logo_img" title="consen">
+                  <a className="logo_img" title="">
                     <img src="assets/images/logo2.png" alt="logo" />
                   </a>
                 </Link>
                 <Link legacyBehavior href="/">
-                  <a className="main_sticky" title="consen">
+                  <a className="main_sticky" title="">
                     <img src="assets/images/logo2.png" alt="logo" />
                   </a>
                 </Link>
               </div>
             </div>
             <div className="col-lg-9 pl-0 pr-0">
-              <nav className="consen_menu">
+              <nav className="_menu">
                 <DaskTopMenusMenus />
                 <div className="header-button">
                   <Link legacyBehavior href="contact">

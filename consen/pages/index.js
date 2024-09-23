@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <Layout footer={1}>
       {/*==================================================*/}
-      {/* Start consen slider Area */}
+      {/* Start  slider Area */}
       {/*==================================================*/}
       <div className="slider-area d-flex align-items-center">
         <div className="container">
@@ -79,16 +79,16 @@ const Index = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/*End consen slider Area  */}
+      {/*End  slider Area  */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen feature Area */}
+      {/* Start  feature Area */}
       {/*==================================================*/}
       <div className="service-area">
         <div className="container">
           <div className="row align-items-center mb-90">
             <div className="col-lg-7 col-md-8 pl-0">
-              <div className="consen-section-title mobile-center">
+              <div className="-section-title mobile-center">
                 <h2> Browse Top</h2>
                 <h2>
                   {" "}
@@ -97,7 +97,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-5 col-md-4">
-              {/* <div className="consen-button text-right">
+              {/* <div className="-button text-right">
                 <Link legacyBehavior href="/service">
                   <a>
                     {" "}
@@ -264,10 +264,10 @@ const Index = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End consen feature Area */}
+      {/* End  feature Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* End consen about Area */}
+      {/* End  about Area */}
       {/*==================================================*/}
       <div className="about-area">
         <div className="container">
@@ -282,7 +282,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-12 ">
-              <div className="consen-section-title white pb-10">
+              <div className="-section-title white pb-10">
                 <h2> OUR MISSION</h2>
                 <h2>
                   {" "}
@@ -386,16 +386,16 @@ const Index = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End consen about Area */}
+      {/* End  about Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* End consen about Area */}
+      {/* End  about Area */}
       {/*==================================================*/}
       <div className="ceo-cod-area">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 ">
-              <div className="consen-section-title">
+              <div className="-section-title">
                 <h2> ABOUT US</h2>
                 {/* <h2>
                   {" "}
@@ -441,16 +441,16 @@ const Index = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End consen about Area */}
+      {/* End  about Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen case study Area */}
+      {/* Start  case study Area */}
       {/*==================================================*/}
       <div className="case-study-area">
         <div className="container">
           <div className="row case-study-bg align-items-center mb-40">
             <div className="col-lg-6 col-md-8">
-              <div className="consen-section-title mobile-center white ">
+              <div className="-section-title mobile-center white ">
                 <h2>DISCOVER COURSES</h2>
                 <h2>
                   {" "}
@@ -459,7 +459,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-4">
-              <div className="consen-button text-right">
+              <div className="-button text-right">
                 <Link legacyBehavior href="/portfolio">
                   <a>
                     {" "}
@@ -661,10 +661,10 @@ const Index = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End consen case study Area */}
+      {/* End  case study Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen process Area */}
+      {/* Start  process Area */}
       {/*==================================================*/}
       <div className="process-area">
         <div className="container">
@@ -737,7 +737,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-12 pl-lg-50">
-              {/* <div className="consen-section-title mt-4 mt-lg-0">
+              {/* <div className="-section-title mt-4 mt-lg-0">
                 <h2> The Fatest Way To Achieve </h2>
                 <h2>
                   {" "}
@@ -813,17 +813,17 @@ const Index = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End consen process Area */}
+      {/* End  process Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen Skills Area Css */}
+      {/* Start  Skills Area Css */}
       {/*==================================================*/}
       {/* <div className="skill-area">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6">
               <div className="extra-animation-div">
-                <div className="consen-section-title white">
+                <div className="-section-title white">
                   <h2> Join the Community to learn </h2>
                   <h2>
                     {" "}
@@ -867,16 +867,16 @@ const Index = () => {
         </div>
       </div> */}
       {/*==================================================*/}
-      {/* End consen Skill Area Css */}
+      {/* End  Skill Area Css */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen Blog Area */}
+      {/* Start  Blog Area */}
       {/*==================================================*/}
       <div className="blog-area blog-new">
         <div className="container">
           <div className="row align-items-center mb-40">
             <div className="col-lg-7 col-md-8">
-              <div className="consen-section-title mobile-center">
+              <div className="-section-title mobile-center">
                 <h2> DISCOVER NEWS</h2>
                 <h2>
                   {" "}
@@ -885,7 +885,7 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-5 col-md-4">
-              {/* <div className="consen-button text-right">
+              {/* <div className="-button text-right">
                 <Link legacyBehavior href="/blog-grid">
                   <a>
                     {" "}

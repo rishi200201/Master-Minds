@@ -37,7 +37,7 @@ const LandingHeader = () => {
                       </a>
                     </li>
                     <li className="menu-icon">
-                      <a href="https://www.instagram.com/_themasterminds_/?utm_medium=copy_link">
+                      <a href="https://www.instagram.com/_the_/?utm_medium=copy_link">
                         <i className="bi bi-instagram" />
                       </a>
                     </li>
@@ -49,12 +49,12 @@ const LandingHeader = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End consen Header Top Menu Area Css */}
+      {/* End  Header Top Menu Area Css */}
       {/*===================================================*/}
       {/*==================================================*/}
-      {/* Start consen Main Menu Area */}
+      {/* Start  Main Menu Area */}
       {/*==================================================*/}
-      <div id="sticky-header" className="consen_nav_manu style-two header____">
+      <div id="sticky-header" className="_nav_manu style-two header____">
         <div className="container">
           <div className="row header-bg align-items-center">
             <div className="col-lg-3">
@@ -65,14 +65,14 @@ const LandingHeader = () => {
                   </a>
                 </Link>
                 <Link legacyBehavior href="/">
-                  <a className="main_sticky" title="consen">
+                  <a className="main_sticky" title="">
                     <img src="assets/images/logo2.png" alt="logo" />
                   </a>
                 </Link>
               </div>
             </div>
             <div className="col-lg-9 pl-0 pr-0 d-flex align-items-center justify-content-around">
-              <nav className="consen_menu">
+              <nav className="_menu">
                 <ul className="nav_scroll">
                   <li>
                     <a href="#home">Home</a>

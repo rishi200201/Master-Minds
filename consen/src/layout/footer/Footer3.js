@@ -98,7 +98,7 @@ const Footer1 = () => {
                   </a>
                   <a
                     className="social-icon-color2"
-                    href="https://www.instagram.com/_themasterminds_/?utm_medium=copy_link"
+                    href="https://www.instagram.com/_the_/?utm_medium=copy_link"
                   >
                     <i className="bi bi-instagram" />
                   </a>
@@ -184,9 +184,9 @@ const Footer1 = () => {
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-md-4">
-              <div className="consen-logo">
+              <div className="-logo">
                 <Link legacyBehavior href="/">
-                  <a className="logo_thumb" title="consen">
+                  <a className="logo_thumb" title="">
                     <img src="assets/images/logo.png" alt="logo" />
                   </a>
                 </Link>

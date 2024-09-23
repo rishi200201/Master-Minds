@@ -66,7 +66,7 @@ const Index2 = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* Start consen feature Area */}
+      {/* Start  feature Area */}
       {/*==================================================*/}
       <div className="feature-area">
         <div className="">
@@ -90,7 +90,7 @@ const Index2 = () => {
                   <div className="feature-bar" />
                 </div>
                 {/* feature back */}
-                {/* <div className="consen-feature-back">
+                {/* <div className="-feature-back">
                   <div className="feature-back-title">
                     <h3> Strategy </h3>
                     <h2> Strategy Building </h2>
@@ -119,7 +119,7 @@ const Index2 = () => {
                   <div className="feature-bar" />
                 </div>
                 {/* feature back */}
-                {/* <div className="consen-feature-back">
+                {/* <div className="-feature-back">
                   <div className="feature-back-title">
                     <h3> Strategy </h3>
                     <h2> Strategy Building </h2>
@@ -148,7 +148,7 @@ const Index2 = () => {
                   <div className="feature-bar" />
                 </div>
                 {/* feature back */}
-                {/* <div className="consen-feature-back">
+                {/* <div className="-feature-back">
                   <div className="feature-back-title">
                     <h3> Strategy </h3>
                     <h2> Strategy Building </h2>
@@ -176,7 +176,7 @@ const Index2 = () => {
                   <div className="feature-bar" />
                 </div>
                 {/* feature back */}
-                {/* <div className="consen-feature-back">
+                {/* <div className="-feature-back">
                   <div className="feature-back-title">
                     <h3> Strategy </h3>
                     <h2> Strategy Building </h2>
@@ -196,10 +196,10 @@ const Index2 = () => {
       </div>
       {/* ------------------------------------------------------------------------------------ */}
       {/*==================================================*/}
-      {/* End consen feature Area */}
+      {/* End  feature Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* End consen about Area */}
+      {/* End  about Area */}
       {/*==================================================*/}
       <div className="about-area style-three">
   <div className="container">
@@ -217,7 +217,7 @@ const Index2 = () => {
         </div>
       </div>
       <div className="col-lg-6 col-md-12">
-        <div className="consen-section-title">
+        <div className="-section-title">
           <h5>HOW WE CAN HELP?</h5>
           <h2>How can we help your business grow</h2>
           {/* <h2>Establishing and Expanding</h2>
@@ -318,16 +318,16 @@ const Index2 = () => {
 </div>
 
       {/*==================================================*/}
-      {/* End consen about Area */}
+      {/* End  about Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen feature Area */}
+      {/* Start  feature Area */}
       {/*==================================================*/}
       {/* <div className="service-area style-three">
         <div className="container">
           <div className="row">
             <div className="col-lg-7 col-md-6">
-              <div className="consen-section-title white pb-50 mb-1">
+              <div className="-section-title white pb-50 mb-1">
                 <h5> What We Do? </h5>
                 <h2> We Run All Kinds Of Services</h2>
                 <h2>
@@ -471,16 +471,16 @@ const Index2 = () => {
         </div>
       </div> */}
       {/*==================================================*/}
-      {/* End consen feature Area */}
+      {/* End  feature Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen case study Area */}
+      {/* Start  case study Area */}
       {/*==================================================*/}
       <div className="why-choose-us-area">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="consen-section-title">
+              <div className="-section-title">
                 <h5> Why Choose Us? </h5>
                 <h2> How can we help your   </h2>
                 <h2>
@@ -556,16 +556,16 @@ const Index2 = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End consen case study Area */}
+      {/* End  case study Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen Testimonial Area */}
+      {/* Start  Testimonial Area */}
       {/*==================================================*/}
       {/* <div className="testimonial-area">
         <div className="container">
           <div className="row testi-rotate align-items-center">
             <div className="col-lg-7 col-md-6">
-              <div className="consen-section-title white pb-50">
+              <div className="-section-title white pb-50">
                 <h5> Testimonials </h5>
                 <h2> Consen Trusted Customers </h2>
                 <h2>
@@ -818,10 +818,10 @@ const Index2 = () => {
         </div>
       </div> */}
       {/*==================================================*/}
-      {/* End consen Testimonial Area */}
+      {/* End  Testimonial Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen case study Area */}
+      {/* Start  case study Area */}
       {/*==================================================*/}
       {/* <div className="case-study-area style-three">
         <div className="container">
@@ -829,16 +829,16 @@ const Index2 = () => {
         </div>
       </div> */}
       {/*==================================================*/}
-      {/* End consen case study Area */}
+      {/* End  case study Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen process Area */}
+      {/* Start  process Area */}
       {/*==================================================*/}
       {/* <div className="process-area style-two">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7 col-md-6">
-              <div className="consen-section-title white pb-4 pb-lg-5">
+              <div className="-section-title white pb-4 pb-lg-5">
                 <h5> process </h5>
                 <h2> We follow some easy steps to </h2>
                 <h2>
@@ -923,16 +923,16 @@ const Index2 = () => {
         </div>
       </div> */}
       {/*==================================================*/}
-      {/* End consen process Area */}
+      {/* End  process Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen Team Area */}
+      {/* Start  Team Area */}
       {/*==================================================*/}
       {/* <div className="team_area">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="consen-section-title upper text-center pb-60">
+              <div className="-section-title upper text-center pb-60">
                 <h5> Team Member </h5>
                 <h2>
                   {" "}
@@ -1036,23 +1036,23 @@ const Index2 = () => {
         </div>
       </div> */}
       {/*==================================================*/}
-      {/* End consen Team Area */}
+      {/* End  Team Area */}
       {/*==================================================*/}
       {/*==================================================*/}
       {/* Start faq Area */}
       {/*==================================================*/}
       
       {/*==================================================*/}
-      {/* End consen faq Area */}
+      {/* End  faq Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen Blog Area */}
+      {/* Start  Blog Area */}
       {/*==================================================*/}
       {/* <div className="blog-area style-two">
         <div className="container">
           <div className="row pb-40">
             <div className="col-lg-7 col-md-6">
-              <div className="consen-section-title mobile-center">
+              <div className="-section-title mobile-center">
                 <h2> We Run All Kinds Of Services </h2>
                 <h2>
                   {" "}
@@ -1061,7 +1061,7 @@ const Index2 = () => {
               </div>
             </div>
             <div className="col-lg-5 col-md-6">
-              <div className="consen-button text-right pt-4 pt-md-0">
+              <div className="-button text-right pt-4 pt-md-0">
                 <Link legacyBehavior href="/blog-grid">
                   <a>
                     {" "}
@@ -1198,10 +1198,10 @@ const Index2 = () => {
         </div>
       </div> */}
       {/*==================================================*/}
-      {/* End consen Blog Area */}
+      {/* End  Blog Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen Subscribe Area */}
+      {/* Start  Subscribe Area */}
       {/*==================================================*/}
       {/* <div className="subscribe-area style-two mt-5 mt-sm-0">
         <div className="container">

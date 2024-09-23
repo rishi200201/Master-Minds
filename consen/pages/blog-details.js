@@ -19,7 +19,7 @@ const BlogDetails = () => {
                     <h5>Plan Your Project with Your Software</h5>
                     <div className="blog-meta">
                       <span>
-                        <a href="#">consen</a>
+                        <a href="#"></a>
                       </span>{" "}
                       - <span>March 24, 2023</span> -{" "}
                       <span>

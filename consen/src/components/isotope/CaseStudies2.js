@@ -38,7 +38,7 @@ const CaseStudies2 = () => {
     <Fragment>
       <div className="row prtb-bg align-items-center">
         <div className="col-lg-7">
-          <div className="consen-section-title pb-50">
+          <div className="-section-title pb-50">
             <h5> Case Studies </h5>
             <h2>
               {" "}

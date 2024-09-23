@@ -39,7 +39,7 @@ const CaseStudies = () => {
     <Fragment>
       <div className="row case-study-bg">
         <div className="col-lg-12">
-          <div className="consen-section-title upper text-center pb-50">
+          <div className="-section-title upper text-center pb-50">
             {/* <h5> Case Studies </h5> */}
             <h2> The Masterminds International Institutions </h2>
            <p>
@@ -53,7 +53,7 @@ Globally Accredited Professional Courses by International Accreditation Organiza
           </div>
         </div>
         <div className="col-lg-12">
-          <div className="consen-section-title upper text-center pb-50">
+          <div className="-section-title upper text-center pb-50">
             {/* <h5> Case Studies </h5> */}
            
             <p>
@@ -99,7 +99,7 @@ Globally Accredited Professional Courses by International Accreditation Organiza
   </div>
   
           <div className="col-lg-12">
-          <div className="consen-section-title upper text-center pb-50">
+          <div className="-section-title upper text-center pb-50">
             <h5> CORE OBJECTIVES</h5>
             <h6>
             We craft courses for acquiring, retaining and growing in multiple, aspiring & boundaryless career ladders</h6>
@@ -400,13 +400,13 @@ Globally Accredited Professional Courses by International Accreditation Organiza
         </div><div className="col-lg-4 col-md-6 grid-item chemistry physics">
           <div className="case-study-single-box">
             <div className="case-study-thumb2">
-              <img src="assets/images/project/media.jpg" alt />
+              <img src="assets/images/project/Media.jpg" alt />
               {/* port icon */}
               <div className="single_portfolio_icon">
                 <a
                   className="portfolio-icon venobox vbox-item"
                   data-gall="myportfolio"
-                  href="assets/images/project/media.jpg"
+                  href="assets/images/project/Media.jpg"
                 >
                   <i className="bi bi-card-image" />
                 </a>

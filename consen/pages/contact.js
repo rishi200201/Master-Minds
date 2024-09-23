@@ -53,7 +53,7 @@ const Contact = () => {
                 imgSrc: "/assets/images/about/email.png",
                 altText: "Email Icon",
                 title: "Email:",
-                content: "info@mastermindsgroup.org",
+                content: "info@group.org",
               },
             ].map((item, index) => (
               <div className="col-md-4 mb-4" key={index}>

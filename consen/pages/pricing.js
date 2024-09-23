@@ -11,7 +11,7 @@ const Pricing = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="consen-section-title upper text-center pb-60">
+              <div className="-section-title upper text-center pb-60">
                 <h5> Our Pricing </h5>
                 <h2>
                   {" "}

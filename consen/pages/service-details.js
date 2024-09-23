@@ -6,7 +6,7 @@ const ServiceDetails = () => {
     <Layout>
       <Breadcumb pageName={"Service Details"} />
       {/*==================================================*/}
-      {/* Start consen service details Area */}
+      {/* Start  service details Area */}
       {/*==================================================*/}
       <div className="service-detials-area">
         <div className="container">
@@ -14,8 +14,8 @@ const ServiceDetails = () => {
             <div className="col-lg-8 col-md-12">
               <div className="row">
                 <div className="col-lg-12 col-sm-12">
-                  <div className="consen-service-details-box">
-                    <div className="consen-service-thumb">
+                  <div className="-service-details-box">
+                    <div className="-service-thumb">
                       <img src="assets/images/resource/srd1.jpg" alt />
                     </div>
                     <div className="service-details-content">

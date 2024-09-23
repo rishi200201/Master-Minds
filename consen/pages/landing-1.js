@@ -109,7 +109,7 @@ const Index3 = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="consen-section-title">
+              <div className="-section-title">
                 <h5>How We Can Help</h5>
                 <h2>How can we help your business grow</h2>
               </div>
@@ -166,7 +166,7 @@ const Index3 = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="consen-section-title upper text-center mb-40">
+              <div className="-section-title upper text-center mb-40">
                 <h5>WHAT WE DO</h5>
                 <h2>Streamline Connections & Collaborations</h2>
                 <h2>
@@ -257,7 +257,7 @@ const Index3 = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="consen-section-title white upper text-center mb-40">
+              <div className="-section-title white upper text-center mb-40">
                 <h5>CONTACT US</h5>
                 <h2>That We Stand <span>Behind</span></h2>
               </div>

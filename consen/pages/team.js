@@ -10,13 +10,13 @@ const Team = () => {
       <Breadcumb pageName={"Our Team"} />
 
       {/*==================================================*/}
-      {/* End consen about Area */}
+      {/* End  about Area */}
       {/*==================================================*/}
       <div className="about-area style-three upper1">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 ">
-              <div className="consen-section-title">
+              <div className="-section-title">
                 <h5> About Consen </h5>
                 <h2>
                   {" "}
@@ -87,7 +87,7 @@ const Team = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End consen about Area */}
+      {/* End  about Area */}
       {/*==================================================*/}
       {/*==================================================*/}
       {/* Start Brand Section */}
@@ -116,13 +116,13 @@ const Team = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* Start consen Team Area */}
+      {/* Start  Team Area */}
       {/*==================================================*/}
       <div className="team_area style-two upp">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="consen-section-title upper text-center pb-60">
+              <div className="-section-title upper text-center pb-60">
                 <h5> Team Member </h5>
                 <h2>
                   {" "}

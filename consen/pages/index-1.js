@@ -70,10 +70,10 @@ const Index3 = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/*End consen slider Area  */}
+      {/*End  slider Area  */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen feature Area */}
+      {/* Start  feature Area */}
       {/*==================================================*/}
       {/* <div className="feature-area new-style">
         <div className="container">
@@ -115,16 +115,16 @@ const Index3 = () => {
         </div>
       </div> */}
       {/*==================================================*/}
-      {/* End consen feature Area */}
+      {/* End  feature Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* End consen about Area */}
+      {/* End  about Area */}
       {/*==================================================*/}
       <div className="why-choose-us-area">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="consen-section-title">
+              <div className="-section-title">
                 <h5> Why Choose Us? </h5>
                 <h2> How can we help your   </h2>
                 <h2>
@@ -204,7 +204,7 @@ const Index3 = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End consen about Area */}
+      {/* End  about Area */}
       {/*==================================================*/}
       {/*==================================================*/}
       {/* End Consen Service Area */}
@@ -213,7 +213,7 @@ const Index3 = () => {
   <div className="container">
     <div className="row">
       <div className="col-lg-12">
-        <div className="consen-section-title upper text-center mb-40">
+        <div className="-section-title upper text-center mb-40">
           <h5>WHAT WE DO</h5>
           <h2>Achieve Maximum ROI with a robust</h2>
           <h2>
@@ -304,14 +304,14 @@ const Index3 = () => {
       {/* End Consen Service Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen Skills Area Css */}
+      {/* Start  Skills Area Css */}
       {/*==================================================*/}
       <div className="skill-area style-two">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6">
               <div className="extra-animation-div">
-                {/* <div className="consen-section-title white">
+                {/* <div className="-section-title white">
                   <h5>POPULAR SKILLS</h5>
                   <h2> We Are Professionals And </h2>
                   <h2>
@@ -349,16 +349,16 @@ const Index3 = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End consen Skill Area Css */}
+      {/* End  Skill Area Css */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen Call Do Action Area Css */}
+      {/* Start  Call Do Action Area Css */}
       {/*==================================================*/}
       <div className="call-do-action-area">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="consen-section-title white upper text-center mb-40">
+              <div className="-section-title white upper text-center mb-40">
                 <h5> CONtACT US</h5>
                 {/* <h2> High Quality Services And Products</h2> */}
                 <h2>
@@ -376,10 +376,10 @@ const Index3 = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End consen Call Do Action Area Css */}
+      {/* End  Call Do Action Area Css */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen case study Area */}
+      {/* Start  case study Area */}
       {/*==================================================*/}
       {/* <div className="portfolio-area">
         <div className="container-fluid">
@@ -387,10 +387,10 @@ const Index3 = () => {
         </div>
       </div> */}
       {/*==================================================*/}
-      {/* End consen case study Area */}
+      {/* End  case study Area */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start consen Testimonial Area */}
+      {/* Start  Testimonial Area */}
       {/*==================================================*/}
       
     </Layout>

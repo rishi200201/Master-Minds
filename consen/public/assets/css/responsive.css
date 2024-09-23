@@ -1,6 +1,6 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1600px) {
-    .consen_menu>ul>li>a {
+    ._menu>ul>li>a {
         margin: 30px 6px !important;
         font-size: 15px !important;
     }
@@ -26,7 +26,7 @@
         width: 100%;
     }
 
-    .consen_menu>ul>li>a {
+    ._menu>ul>li>a {
         font-size: 14px;
         margin: 29px 5px;
     }
@@ -39,7 +39,7 @@
         display: none;
     }
 
-    .style-two.consen_nav_manu {
+    .style-two._nav_manu {
         padding: 0 30px;
     }
 
@@ -128,11 +128,11 @@
     }
 
     /*start section title*/
-    .consen-section-title h2 {
+    .-section-title h2 {
         font-size: 30px;
     }
 
-    .consen-section-title p {
+    .-section-title p {
         font-size: 16px;
     }
 
@@ -255,7 +255,7 @@
         font-size: 15px;
     }
 
-    .style-three.case-study-area .consen-section-title h2 {
+    .style-three.case-study-area .-section-title h2 {
         font-size: 35px;
     }
 
@@ -431,7 +431,7 @@
         width: 100%;
     }
 
-    .style-two nav.consen_menu {
+    .style-two nav._menu {
         text-align: right;
     }
 
@@ -511,7 +511,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1140px) {
-    .consen_nav_manu {
+    ._nav_manu {
         padding: 0 25px;
     }
 
@@ -522,7 +522,7 @@
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-    .consen_nav_manu {
+    ._nav_manu {
         display: none;
     }
 
@@ -663,11 +663,11 @@
         margin-bottom: 30px;
     }
 
-    .consen-section-title h2 {
+    .-section-title h2 {
         font-size: 36px;
     }
 
-    .consen-section-title p {
+    .-section-title p {
         font-size: 16px;
     }
 
@@ -711,7 +711,7 @@
         padding: 216px 0 120px;
     }
 
-    .style-three.about-area .consen-section-title h2 {
+    .style-three.about-area .-section-title h2 {
         font-size: 25px;
     }
 
@@ -726,7 +726,7 @@
         font-size: 15px;
     }
 
-    .style-two.about-area .consen-section-title h2 {
+    .style-two.about-area .-section-title h2 {
         font-size: 28px;
     }
 
@@ -811,7 +811,7 @@
         left: 42px;
     }
 
-    .process-area .consen-section-title h2 {
+    .process-area .-section-title h2 {
         font-size: 24px;
     }
 
@@ -846,7 +846,7 @@
     }
 
     /*case study and portfolio*/
-    .style-three.case-study-area .consen-section-title h2 {
+    .style-three.case-study-area .-section-title h2 {
         font-size: 35px;
     }
 
@@ -889,7 +889,7 @@
     }
 
     /*skill area*/
-    .consen-section-title h2 {
+    .-section-title h2 {
         font-size: 22px;
     }
 
@@ -979,7 +979,7 @@
         right: 20px;
     }
 
-    .blog-area.style-two .consen-button a {
+    .blog-area.style-two .-button a {
         padding: 13px 30px;
     }
 
@@ -1328,7 +1328,7 @@
 
 /* Large Mobile :600px. */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-    .consen_nav_manu {
+    ._nav_manu {
         display: none;
     }
 
@@ -1336,7 +1336,7 @@
         position: relative !important;
     }
 
-    .consen-button.text-right {
+    .-button.text-right {
         text-align: center !important;
         margin-top: 25px;
     }
@@ -1449,25 +1449,25 @@
     }
 
     /*service area*/
-    .consen-section-title h2 {
+    .-section-title h2 {
         font-size: 32px;
     }
 
-    .service-area .consen-section-title h2 {
+    .service-area .-section-title h2 {
         text-align: center;
     }
 
-    .case-study-area .consen-section-title h2 {
+    .case-study-area .-section-title h2 {
         text-align: center;
     }
 
-    .consen-button.text-right.pt-20 {
+    .-button.text-right.pt-20 {
         text-align: center !important;
         padding-top: 0 !important;
         padding: 0 0 70px;
     }
 
-    .consen-section-title.pb-90 {
+    .-section-title.pb-90 {
         padding-bottom: 30px !important;
     }
 
@@ -1497,7 +1497,7 @@
     }
 
     /*counter area*/
-    .testimonial-area .consen-section-title {
+    .testimonial-area .-section-title {
         text-align: center;
     }
 
@@ -1535,7 +1535,7 @@
         margin-top: -20px;
     }
 
-    .consen-button.text-right.pt-30 {
+    .-button.text-right.pt-30 {
         text-align: center !important;
         padding: 0 0 30px !important;
     }
@@ -1544,13 +1544,13 @@
         padding-bottom: 0;
     }
 
-    .consen-button a {
+    .-button a {
         padding: 8px 14px 13px 27px;
         font-size: 14px;
         margin-bottom: 30px;
     }
 
-    .consen-section-title.white.pb-40 {
+    .-section-title.white.pb-40 {
         padding: 0 0 25px !important;
     }
 
@@ -1591,7 +1591,7 @@
         margin: 0px 0 35px -20px;
     }
 
-    .style-three .consen-section-title h2 {
+    .style-three .-section-title h2 {
         font-size: 30px;
         text-align: left;
     }
@@ -1641,7 +1641,7 @@
         font-size: 16px;
     }
 
-    .style-two.process-area .consen-section-title h5:before {
+    .style-two.process-area .-section-title h5:before {
         left: -124px;
     }
 
@@ -1667,11 +1667,11 @@
         padding: 0 0 21px;
     }
 
-    .consen-section-title h5 {
+    .-section-title h5 {
         margin-left: 0;
     }
 
-    .consen-section-title h5::before {
+    .-section-title h5::before {
         display: none;
     }
 
@@ -1690,12 +1690,12 @@
         top: 55px;
     }
 
-    .style-three.case-study-area .consen-section-title h2 {
+    .style-three.case-study-area .-section-title h2 {
         width: 100%;
         text-align: center;
     }
 
-    .upper.consen-section-title h5::after {
+    .upper.-section-title h5::after {
         display: none;
     }
 
@@ -1741,7 +1741,7 @@
         padding: 75px 0 80px;
     }
 
-    .faq-area .consen-section-title h5:before {
+    .faq-area .-section-title h5:before {
         left: -92px;
     }
 
@@ -1759,7 +1759,7 @@
         background: transparent;
     }
 
-    .blog-area .consen-section-title h2 {
+    .blog-area .-section-title h2 {
         font-size: 34px;
         text-align: center;
     }
@@ -1909,7 +1909,7 @@
         font-size: 17px;
     }
 
-    .upper.style-three.about-area .consen-section-title {
+    .upper.style-three.about-area .-section-title {
         padding: 30px 0 0;
         text-align: center;
     }
@@ -2120,7 +2120,7 @@
 
 /* small mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 599px) {
-    .consen_nav_manu {
+    ._nav_manu {
         display: none;
     }
 
@@ -2237,29 +2237,29 @@
     }
 
     /*service area*/
-    .consen-section-title h2 {
+    .-section-title h2 {
         font-size: 26px;
     }
 
-    .service-area .consen-section-title h2 {
+    .service-area .-section-title h2 {
         text-align: center;
     }
 
-    .consen-button.text-right.pt-30 {
+    .-button.text-right.pt-30 {
         text-align: center !important;
         padding: 0 0 30px !important;
     }
 
-    .consen-button a {
+    .-button a {
         padding: 8px 14px 13px 27px;
         font-size: 14px;
     }
 
-    .consen-section-title.pb-90 {
+    .-section-title.pb-90 {
         padding: 0 0 25px !important;
     }
 
-    .consen-button.text-right.pt-20 {
+    .-button.text-right.pt-20 {
         text-align: center !important;
         padding: 0 0 70px !important;
     }
@@ -2269,7 +2269,7 @@
         text-align: center !important;
     }
 
-    .consen-section-title.white.pb-50 {
+    .-section-title.white.pb-50 {
         padding: 0 0 25px;
     }
 
@@ -2294,7 +2294,7 @@
         padding: 35px 0 75px;
     }
 
-    .testimonial-area .consen-section-title {
+    .testimonial-area .-section-title {
         text-align: center;
     }
 
@@ -2343,7 +2343,7 @@
         margin-top: 22px;
     }
 
-    .service-area .consen-button a {
+    .service-area .-button a {
         margin-bottom: 30px;
     }
 
@@ -2390,13 +2390,13 @@
         width: 75%;
     }
 
-    .consen-section-title h5 {
+    .-section-title h5 {
         margin: 40px 0 20px;
         left: 0;
         text-align: center;
     }
 
-    .consen-section-title h5:before {
+    .-section-title h5:before {
         display: none;
     }
 
@@ -2412,7 +2412,7 @@
         text-align: left;
     }
 
-    .service-area.style-three .consen-section-title {
+    .service-area.style-three .-section-title {
         text-align: center;
     }
 
@@ -2573,7 +2573,7 @@
         top: 60px;
     }
 
-    .style-three.case-study-area .consen-section-title h2 {
+    .style-three.case-study-area .-section-title h2 {
         font-size: 32px;
         width: 100%;
     }
@@ -2664,7 +2664,7 @@
         text-align: left;
     }
 
-    .upper.consen-section-title h5::after {
+    .upper.-section-title h5::after {
         display: none;
     }
 
@@ -2681,7 +2681,7 @@
         padding: 0 0 0 15px;
     }
 
-    .blog-area.style-two .consen-button.text-right.pt-30 {
+    .blog-area.style-two .-button.text-right.pt-30 {
         text-align: left !important;
     }
 
@@ -2962,7 +2962,7 @@
         font-size: 36px;
     }
 
-    .consen-button.text-right {
+    .-button.text-right {
         text-align: left !important;
         margin-top: 25px;
     }
@@ -3049,7 +3049,7 @@
         font-size: 16px;
     }
 
-    .service-area .consen-button.text-right {
+    .service-area .-button.text-right {
         text-align: center !important;
     }
 
@@ -3065,7 +3065,7 @@
         width: 100%;
     }
 
-    .about-area.style-three.upper.sr-page .consen-section-title {
+    .about-area.style-three.upper.sr-page .-section-title {
         padding: 30px 0 0;
         text-align: left;
     }
@@ -3177,7 +3177,7 @@
 
 /* small mobile :320px. */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-    .consen_nav_manu {
+    ._nav_manu {
         display: none;
     }
 
@@ -3219,7 +3219,7 @@
         font-size: 22px;
     }
 
-    .consen-button.text-right {
+    .-button.text-right {
         text-align: center !important;
         margin-top: 25px;
     }
@@ -3328,11 +3328,11 @@
         padding: 0 0 50px;
     }
 
-    .style-three.about-area .consen-section-title h2 {
+    .style-three.about-area .-section-title h2 {
         text-align: left;
     }
 
-    .style-three.about-area .consen-section-title p {
+    .style-three.about-area .-section-title p {
         font-size: 14px;
         text-align: left;
     }
@@ -3341,11 +3341,11 @@
         text-align: left;
     }
 
-    .consen-section-title h5::before {
+    .-section-title h5::before {
         display: none;
     }
 
-    .consen-section-title h5::after {
+    .-section-title h5::after {
         display: none;
     }
 
@@ -3353,15 +3353,15 @@
         display: none;
     }
 
-    .style-three.service-area .consen-section-title {
+    .style-three.service-area .-section-title {
         text-align: center;
     }
 
-    .why-choose-us-area .consen-section-title h2 {
+    .why-choose-us-area .-section-title h2 {
         text-align: left;
     }
 
-    .why-choose-us-area .consen-section-title p {
+    .why-choose-us-area .-section-title p {
         text-align: left;
     }
 
@@ -3369,7 +3369,7 @@
         display: none;
     }
 
-    .testimonial-area .consen-section-title {
+    .testimonial-area .-section-title {
         text-align: center;
     }
 
@@ -3381,11 +3381,11 @@
         display: none;
     }
 
-    .process-area.style-two .consen-section-title {
+    .process-area.style-two .-section-title {
         text-align: center;
     }
 
-    .process-area.style-two .consen-section-title h2 {
+    .process-area.style-two .-section-title h2 {
         font-size: 19px;
     }
 
@@ -3405,7 +3405,7 @@
         display: none;
     }
 
-    .faq-area .consen-section-title {
+    .faq-area .-section-title {
         text-align: center;
     }
 
@@ -3418,7 +3418,7 @@
         padding: 40px 0 65px;
     }
 
-    .consen-section-title h2 {
+    .-section-title h2 {
         font-size: 21px;
     }
 
@@ -3426,16 +3426,16 @@
         text-align: center;
     }
 
-    .consen-button.text-right.pt-30 {
+    .-button.text-right.pt-30 {
         padding: 0 0 30px !important;
     }
 
-    .consen-button a {
+    .-button a {
         padding: 7px 14px 11px 23px;
         font-size: 14px;
     }
 
-    .service-area .consen-button a {
+    .service-area .-button a {
         margin-bottom: 30px;
     }
 
@@ -3448,7 +3448,7 @@
         display: none;
     }
 
-    .consen-button a i {
+    .-button a i {
         font-size: 18px;
         width: 24px;
         height: 24px;
@@ -3456,11 +3456,11 @@
         margin-left: 8px;
     }
 
-    .consen-section-title.pb-90 {
+    .-section-title.pb-90 {
         padding: 0 0 25px !important;
     }
 
-    .consen-button.text-right.pt-20 {
+    .-button.text-right.pt-20 {
         text-align: center !important;
         padding: 0 0 70px !important;
     }
@@ -3478,7 +3478,7 @@
         font-size: 14px;
     }
 
-    .consen-section-title p {
+    .-section-title p {
         font-size: 14px;
     }
 
@@ -3512,7 +3512,7 @@
     }
 
 
-    .consen-section-title h5 {
+    .-section-title h5 {
         margin: 35px 0 20px;
         text-align: center;
     }
@@ -3932,12 +3932,12 @@
         font-size: 15px;
     }
 
-    .style-three.case-study-area .consen-section-title h2 {
+    .style-three.case-study-area .-section-title h2 {
         font-size: 24px;
         width: 100%;
     }
 
-    .consen-section-title h5 {
+    .-section-title h5 {
         font-size: 16px;
     }
 
@@ -4370,11 +4370,11 @@
         left: inherit;
     }
 
-    .feature-area.style-two .consen-section-title h2 {
+    .feature-area.style-two .-section-title h2 {
         text-align: left;
     }
 
-    .feature-area.style-two .consen-section-title p {
+    .feature-area.style-two .-section-title p {
         text-align: left;
     }
 
@@ -4382,11 +4382,11 @@
         margin-bottom: 7px;
     }
 
-    .faq-sectiions .consen-section-title h2 {
+    .faq-sectiions .-section-title h2 {
         text-align: left;
     }
 
-    .faq-sectiions .consen-section-title p {
+    .faq-sectiions .-section-title p {
         text-align: left;
     }
 

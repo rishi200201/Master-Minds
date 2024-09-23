@@ -38,7 +38,7 @@ const Header2 = () => {
                       </a>
                     </li>
                     <li className="menu-icon">
-                      <a href="https://www.instagram.com/_themasterminds_/?utm_medium=copy_link">
+                      <a href="https://www.instagram.com/_the_/?utm_medium=copy_link">
                         <i className="bi bi-instagram" />
                       </a>
                     </li>
@@ -50,30 +50,30 @@ const Header2 = () => {
         </div>
       </div>
       {/*==================================================*/}
-      {/* End consen Header Top Menu Area Css */}
+      {/* End  Header Top Menu Area Css */}
       {/*===================================================*/}
       {/*==================================================*/}
-      {/* Start consen Main Menu Area */}
+      {/* Start  Main Menu Area */}
       {/*==================================================*/}
-      <div id="sticky-header" className="consen_nav_manu style-two header____">
+      <div id="sticky-header" className="_nav_manu style-two header____">
         <div className="container">
           <div className="row header-bg align-items-center">
             <div className="col-lg-3">
               <div className="logo">
                 <Link legacyBehavior href="/">
-                  <a className="logo_img" title="consen">
+                  <a className="logo_img" title="">
                     <img src="assets/images/logo2.png" alt="logo" />
                   </a>
                 </Link>
                 <Link legacyBehavior href="/">
-                  <a className="main_sticky" title="consen">
+                  <a className="main_sticky" title="">
                     <img src="assets/images/logo2.png" alt="logo" />
                   </a>
                 </Link>
               </div>
             </div>
             <div className="col-lg-9 pl-0 pr-0">
-              <nav className="consen_menu">
+              <nav className="_menu">
                 <DaskTopMenusMenus />
                 <div className="search-box-btn search-box-outer">
                   <div className="nav-btn navSidebar-button">
@@ -149,7 +149,7 @@ Mugalivakkam, Chennai 600 125
                         <span>
                           <i className="bi bi-geo-alt" />
                         </span>
-                        info@mastermindsgroup.org
+                        info@group.org
                       </li>
                       {/* <li>
                         <span>
@@ -165,7 +165,7 @@ Mugalivakkam, Chennai 600 125
                       <a href="https://www.facebook.com/people/The-Masterminds-International-Institutions/100075920930200/" className="fab fa-facebook-f" />
                     </li>
                     <li className="twitter">
-                      <a href="https://www.instagram.com/_themasterminds_/?utm_medium=copy_link" className="fab fa-instagram" />
+                      <a href="https://www.instagram.com/_the_/?utm_medium=copy_link" className="fab fa-instagram" />
                     </li>
                     <li className="linkedin">
                       <a href="https://x.com/TheMastminds?t=patVzCANPKlSun6jo3e2zw&s=09" className="fab fa-twitter" />
@@ -174,7 +174,7 @@ Mugalivakkam, Chennai 600 125
                       <a href="#" className="fab fa-pinterest-p" />
                     </li> */}
                     <li className="youtube">
-                      <a href="https://www.linkedin.com/in/themastermindsinternational/" className="fab fa-linkedin-in" />
+                      <a href="https://www.linkedin.com/in/theinternational/" className="fab fa-linkedin-in" />
                     </li>
                   </ul>
                 </div>
